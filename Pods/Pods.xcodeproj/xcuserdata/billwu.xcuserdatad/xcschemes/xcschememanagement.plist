@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MathEditor-MTKeyboardResources.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MathEditor.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Math Keeper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>iosMath-mathFonts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>iosMath.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>106FC25179840A703AC26084904B7B03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>515694D13D6BF34300203C6A083A1A42</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5806A57708C47CDEAAC55513109AB005</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>765283D43FF55D531F9957C861E6181D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D5C2C47BCD3BBA7C2FDF06E3FEFB75BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

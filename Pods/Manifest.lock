@@ -1,0 +1,18 @@
+PODS:
+  - Google-Mobile-Ads-SDK (7.21.0)
+  - iosMath (0.9.4)
+  - MathEditor (0.3.0):
+    - iosMath (~> 0.9.3)
+
+DEPENDENCIES:
+  - Google-Mobile-Ads-SDK
+  - MathEditor
+
+SPEC CHECKSUMS:
+  Google-Mobile-Ads-SDK: 4a6f1b43c8cc0e1e95a3b59d9f52a01671c6f9f3
+  iosMath: f7a6cbadf9d836d2149c2a84c435b1effc244cba
+  MathEditor: 0571991a0850213891aead3c2aae6d4b8faa7ced
+
+PODFILE CHECKSUM: ac8718981a73dd8b574fa7dc54548502a4695c98
+
+COCOAPODS: 1.2.0

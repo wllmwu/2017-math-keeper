@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC75E0CFBCA2C84690BC95BB /* libPods-Math Keeper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6789E64EA0730BF4E0934703 /* libPods-Math Keeper.a */; };
+		E00010C01F0C14E8004F2F62 /* WMKEditMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00010BF1F0C14E8004F2F62 /* WMKEditMainTableViewController.m */; };
+		E00010C31F0C19D2004F2F62 /* WMKCategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E00010C21F0C19D2004F2F62 /* WMKCategoryTableViewCell.m */; };
+		E00010C61F0C19F3004F2F62 /* WMKSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00010C51F0C19F3004F2F62 /* WMKSearchTableViewController.m */; };
+		E010B2AF1F0D3D79001B908D /* Categories.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E010B2AE1F0D3D79001B908D /* Categories.xcassets */; };
+		E0175CEA1F3B90BE00307F4F /* WMKCalculatorPage1.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0175CE91F3B90BE00307F4F /* WMKCalculatorPage1.xib */; };
+		E0175CEC1F3B910600307F4F /* WMKCalculatorPage2.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0175CEB1F3B910600307F4F /* WMKCalculatorPage2.xib */; };
+		E03A11841F3CEB5000D4088E /* WMKCalculatorKeypad.m in Sources */ = {isa = PBXBuildFile; fileRef = E03A11831F3CEB5000D4088E /* WMKCalculatorKeypad.m */; };
+		E03DEA9B1F0AB82D0039A5F3 /* WMKMathKeyboardRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = E03DEA9A1F0AB82D0039A5F3 /* WMKMathKeyboardRootView.m */; };
+		E03DEA9E1F0AB8500039A5F3 /* WMKMathKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = E03DEA9D1F0AB8500039A5F3 /* WMKMathKeyboard.m */; };
+		E03DEAA11F0AB8640039A5F3 /* WMKMainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03DEAA01F0AB8640039A5F3 /* WMKMainCollectionViewController.m */; };
+		E03DEAA71F0AB88D0039A5F3 /* WMKSubcategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03DEAA61F0AB88D0039A5F3 /* WMKSubcategoryViewController.m */; };
+		E03DEAAA1F0AB89A0039A5F3 /* WMKFormulaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03DEAA91F0AB89A0039A5F3 /* WMKFormulaViewController.m */; };
+		E03DEAAD1F0AB8B40039A5F3 /* WMKCategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E03DEAAC1F0AB8B40039A5F3 /* WMKCategoryCollectionViewCell.m */; };
+		E03DEAB31F0AB8DC0039A5F3 /* WMKFormulaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E03DEAB21F0AB8DC0039A5F3 /* WMKFormulaTableViewCell.m */; };
+		E03DEAB61F0AB8F20039A5F3 /* WMKSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E03DEAB51F0AB8F20039A5F3 /* WMKSearchTableViewCell.m */; };
+		E03DEAB91F0AB9070039A5F3 /* WMKNewFormulaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03DEAB81F0AB9070039A5F3 /* WMKNewFormulaTableViewController.m */; };
+		E03DEABC1F0AB9150039A5F3 /* WMKSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03DEABB1F0AB9150039A5F3 /* WMKSettingsTableViewController.m */; };
+		E03DEABF1F0AB92E0039A5F3 /* WMKEditManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E03DEABE1F0AB92E0039A5F3 /* WMKEditManager.m */; };
+		E078E3C01F390C6D002B1C37 /* WMKMathKeyboardTab1.xib in Resources */ = {isa = PBXBuildFile; fileRef = E078E3C21F390C6D002B1C37 /* WMKMathKeyboardTab1.xib */; };
+		E078E3C81F391184002B1C37 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E078E3C71F391184002B1C37 /* Localizable.strings */; };
+		E078E3C91F391220002B1C37 /* WMKMathKeyboardTab6.xib in Resources */ = {isa = PBXBuildFile; fileRef = E078E3CB1F391220002B1C37 /* WMKMathKeyboardTab6.xib */; };
+		E0821D021F3D431A00031882 /* WMKCalculatorEntryLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0821D011F3D431A00031882 /* WMKCalculatorEntryLabel.m */; };
+		E0951E331F395500000CEC6A /* WMKPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0951E321F395500000CEC6A /* WMKPageViewController.m */; };
+		E097D1101F3AA7CD00720370 /* WMKCalculatorHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E097D10F1F3AA7CD00720370 /* WMKCalculatorHistoryTableViewCell.m */; };
+		E097D1131F3AA7E500720370 /* WMKCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E097D1121F3AA7E500720370 /* WMKCalculatorViewController.m */; };
+		E0B61D231F119405008068A9 /* WMKCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B61D221F119405008068A9 /* WMKCategoryViewController.m */; };
+		E0CF19501F09F1B5009685C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CF194F1F09F1B5009685C6 /* main.m */; };
+		E0CF19531F09F1B5009685C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CF19521F09F1B5009685C6 /* AppDelegate.m */; };
+		E0CF19591F09F1B5009685C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CF19571F09F1B5009685C6 /* Main.storyboard */; };
+		E0CF195B1F09F1B5009685C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0CF195A1F09F1B5009685C6 /* Assets.xcassets */; };
+		E0CF195E1F09F1B5009685C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CF195C1F09F1B5009685C6 /* LaunchScreen.storyboard */; };
+		E0CF19691F09F1B6009685C6 /* Math_KeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CF19681F09F1B6009685C6 /* Math_KeeperTests.m */; };
+		E0CF19741F09F1B6009685C6 /* Math_KeeperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CF19731F09F1B6009685C6 /* Math_KeeperUITests.m */; };
+		E0CF19831F09F2A4009685C6 /* Subcategories.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0CF19821F09F2A4009685C6 /* Subcategories.xcassets */; };
+		E0CF19851F09F2B3009685C6 /* Keyboard.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0CF19841F09F2B3009685C6 /* Keyboard.xcassets */; };
+		E0E622871F3BBA3800578F31 /* Calculator.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E622861F3BBA3800578F31 /* Calculator.xcassets */; };
+		E0FF1F271F0B088500F4ECB7 /* DefaultFormulas.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0FF1F261F0B088500F4ECB7 /* DefaultFormulas.plist */; };
+		E0FF1F2F1F0B08DE00F4ECB7 /* WMKMathKeyboardRootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0FF1F281F0B08DE00F4ECB7 /* WMKMathKeyboardRootView.xib */; };
+		E0FF1F311F0B08DE00F4ECB7 /* WMKMathKeyboardTab2.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0FF1F2A1F0B08DE00F4ECB7 /* WMKMathKeyboardTab2.xib */; };
+		E0FF1F321F0B08DE00F4ECB7 /* WMKMathKeyboardTab3.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0FF1F2B1F0B08DE00F4ECB7 /* WMKMathKeyboardTab3.xib */; };
+		E0FF1F331F0B08DE00F4ECB7 /* WMKMathKeyboardTab4.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0FF1F2C1F0B08DE00F4ECB7 /* WMKMathKeyboardTab4.xib */; };
+		E0FF1F341F0B08DE00F4ECB7 /* WMKMathKeyboardTab5.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0FF1F2D1F0B08DE00F4ECB7 /* WMKMathKeyboardTab5.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0CF19651F09F1B6009685C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0CF19431F09F1B5009685C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0CF194A1F09F1B5009685C6;
+			remoteInfo = "Math Keeper";
+		};
+		E0CF19701F09F1B6009685C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0CF19431F09F1B5009685C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0CF194A1F09F1B5009685C6;
+			remoteInfo = "Math Keeper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D72F50CCD7F05260CE472BB /* Pods-Math Keeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Math Keeper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Math Keeper/Pods-Math Keeper.release.xcconfig"; sourceTree = "<group>"; };
+		6789E64EA0730BF4E0934703 /* libPods-Math Keeper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Math Keeper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB691117273EAB7316E17C2 /* Pods-Math Keeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Math Keeper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Math Keeper/Pods-Math Keeper.debug.xcconfig"; sourceTree = "<group>"; };
+		E00010BE1F0C14E8004F2F62 /* WMKEditMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKEditMainTableViewController.h; sourceTree = "<group>"; };
+		E00010BF1F0C14E8004F2F62 /* WMKEditMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKEditMainTableViewController.m; sourceTree = "<group>"; };
+		E00010C11F0C19D2004F2F62 /* WMKCategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKCategoryTableViewCell.h; sourceTree = "<group>"; };
+		E00010C21F0C19D2004F2F62 /* WMKCategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKCategoryTableViewCell.m; sourceTree = "<group>"; };
+		E00010C41F0C19F3004F2F62 /* WMKSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKSearchTableViewController.h; sourceTree = "<group>"; };
+		E00010C51F0C19F3004F2F62 /* WMKSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKSearchTableViewController.m; sourceTree = "<group>"; };
+		E010B2AE1F0D3D79001B908D /* Categories.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Categories.xcassets; sourceTree = "<group>"; };
+		E0175CE91F3B90BE00307F4F /* WMKCalculatorPage1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMKCalculatorPage1.xib; sourceTree = "<group>"; };
+		E0175CEB1F3B910600307F4F /* WMKCalculatorPage2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMKCalculatorPage2.xib; sourceTree = "<group>"; };
+		E03A11821F3CEB5000D4088E /* WMKCalculatorKeypad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKCalculatorKeypad.h; sourceTree = "<group>"; };
+		E03A11831F3CEB5000D4088E /* WMKCalculatorKeypad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKCalculatorKeypad.m; sourceTree = "<group>"; };
+		E03DEA991F0AB82D0039A5F3 /* WMKMathKeyboardRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKMathKeyboardRootView.h; sourceTree = "<group>"; };
+		E03DEA9A1F0AB82D0039A5F3 /* WMKMathKeyboardRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKMathKeyboardRootView.m; sourceTree = "<group>"; };
+		E03DEA9C1F0AB8500039A5F3 /* WMKMathKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKMathKeyboard.h; sourceTree = "<group>"; };
+		E03DEA9D1F0AB8500039A5F3 /* WMKMathKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKMathKeyboard.m; sourceTree = "<group>"; };
+		E03DEA9F1F0AB8640039A5F3 /* WMKMainCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKMainCollectionViewController.h; sourceTree = "<group>"; };
+		E03DEAA01F0AB8640039A5F3 /* WMKMainCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKMainCollectionViewController.m; sourceTree = "<group>"; };
+		E03DEAA51F0AB88D0039A5F3 /* WMKSubcategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKSubcategoryViewController.h; sourceTree = "<group>"; };
+		E03DEAA61F0AB88D0039A5F3 /* WMKSubcategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKSubcategoryViewController.m; sourceTree = "<group>"; };
+		E03DEAA81F0AB89A0039A5F3 /* WMKFormulaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKFormulaViewController.h; sourceTree = "<group>"; };
+		E03DEAA91F0AB89A0039A5F3 /* WMKFormulaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKFormulaViewController.m; sourceTree = "<group>"; };
+		E03DEAAB1F0AB8B40039A5F3 /* WMKCategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKCategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		E03DEAAC1F0AB8B40039A5F3 /* WMKCategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKCategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		E03DEAB11F0AB8DC0039A5F3 /* WMKFormulaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKFormulaTableViewCell.h; sourceTree = "<group>"; };
+		E03DEAB21F0AB8DC0039A5F3 /* WMKFormulaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKFormulaTableViewCell.m; sourceTree = "<group>"; };
+		E03DEAB41F0AB8F20039A5F3 /* WMKSearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKSearchTableViewCell.h; sourceTree = "<group>"; };
+		E03DEAB51F0AB8F20039A5F3 /* WMKSearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKSearchTableViewCell.m; sourceTree = "<group>"; };
+		E03DEAB71F0AB9070039A5F3 /* WMKNewFormulaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKNewFormulaTableViewController.h; sourceTree = "<group>"; };
+		E03DEAB81F0AB9070039A5F3 /* WMKNewFormulaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKNewFormulaTableViewController.m; sourceTree = "<group>"; };
+		E03DEABA1F0AB9150039A5F3 /* WMKSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKSettingsTableViewController.h; sourceTree = "<group>"; };
+		E03DEABB1F0AB9150039A5F3 /* WMKSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKSettingsTableViewController.m; sourceTree = "<group>"; };
+		E03DEABD1F0AB92E0039A5F3 /* WMKEditManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKEditManager.h; sourceTree = "<group>"; };
+		E03DEABE1F0AB92E0039A5F3 /* WMKEditManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKEditManager.m; sourceTree = "<group>"; };
+		E078E3C11F390C6D002B1C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/WMKMathKeyboardTab1.xib; sourceTree = "<group>"; };
+		E078E3C71F391184002B1C37 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E078E3CA1F391220002B1C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/WMKMathKeyboardTab6.xib; sourceTree = "<group>"; };
+		E0821D001F3D431A00031882 /* WMKCalculatorEntryLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKCalculatorEntryLabel.h; sourceTree = "<group>"; };
+		E0821D011F3D431A00031882 /* WMKCalculatorEntryLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKCalculatorEntryLabel.m; sourceTree = "<group>"; };
+		E0951E311F395500000CEC6A /* WMKPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKPageViewController.h; sourceTree = "<group>"; };
+		E0951E321F395500000CEC6A /* WMKPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKPageViewController.m; sourceTree = "<group>"; };
+		E097D10E1F3AA7CD00720370 /* WMKCalculatorHistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKCalculatorHistoryTableViewCell.h; sourceTree = "<group>"; };
+		E097D10F1F3AA7CD00720370 /* WMKCalculatorHistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKCalculatorHistoryTableViewCell.m; sourceTree = "<group>"; };
+		E097D1111F3AA7E500720370 /* WMKCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKCalculatorViewController.h; sourceTree = "<group>"; };
+		E097D1121F3AA7E500720370 /* WMKCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKCalculatorViewController.m; sourceTree = "<group>"; };
+		E0B61D211F119405008068A9 /* WMKCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKCategoryViewController.h; sourceTree = "<group>"; };
+		E0B61D221F119405008068A9 /* WMKCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKCategoryViewController.m; sourceTree = "<group>"; };
+		E0CF194B1F09F1B5009685C6 /* Math Keeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Math Keeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CF194F1F09F1B5009685C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0CF19511F09F1B5009685C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0CF19521F09F1B5009685C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0CF19581F09F1B5009685C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0CF195A1F09F1B5009685C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0CF195D1F09F1B5009685C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0CF195F1F09F1B5009685C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0CF19641F09F1B6009685C6 /* Math KeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Math KeeperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CF19681F09F1B6009685C6 /* Math_KeeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Math_KeeperTests.m; sourceTree = "<group>"; };
+		E0CF196A1F09F1B6009685C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0CF196F1F09F1B6009685C6 /* Math KeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Math KeeperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CF19731F09F1B6009685C6 /* Math_KeeperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Math_KeeperUITests.m; sourceTree = "<group>"; };
+		E0CF19751F09F1B6009685C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0CF19821F09F2A4009685C6 /* Subcategories.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Subcategories.xcassets; sourceTree = "<group>"; };
+		E0CF19841F09F2B3009685C6 /* Keyboard.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Keyboard.xcassets; sourceTree = "<group>"; };
+		E0E622861F3BBA3800578F31 /* Calculator.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Calculator.xcassets; sourceTree = "<group>"; };
+		E0FF1F261F0B088500F4ECB7 /* DefaultFormulas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultFormulas.plist; sourceTree = "<group>"; };
+		E0FF1F281F0B08DE00F4ECB7 /* WMKMathKeyboardRootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMKMathKeyboardRootView.xib; sourceTree = "<group>"; };
+		E0FF1F2A1F0B08DE00F4ECB7 /* WMKMathKeyboardTab2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMKMathKeyboardTab2.xib; sourceTree = "<group>"; };
+		E0FF1F2B1F0B08DE00F4ECB7 /* WMKMathKeyboardTab3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMKMathKeyboardTab3.xib; sourceTree = "<group>"; };
+		E0FF1F2C1F0B08DE00F4ECB7 /* WMKMathKeyboardTab4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMKMathKeyboardTab4.xib; sourceTree = "<group>"; };
+		E0FF1F2D1F0B08DE00F4ECB7 /* WMKMathKeyboardTab5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMKMathKeyboardTab5.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0CF19481F09F1B5009685C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC75E0CFBCA2C84690BC95BB /* libPods-Math Keeper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CF19611F09F1B6009685C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CF196C1F09F1B6009685C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABFBA2B5B2740B50E9B42B74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EB691117273EAB7316E17C2 /* Pods-Math Keeper.debug.xcconfig */,
+				4D72F50CCD7F05260CE472BB /* Pods-Math Keeper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B951955DD83AC8F3E9E34A53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6789E64EA0730BF4E0934703 /* libPods-Math Keeper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0CF19421F09F1B5009685C6 = {
+			isa = PBXGroup;
+			children = (
+				E0CF194D1F09F1B5009685C6 /* Math Keeper */,
+				E0CF19671F09F1B6009685C6 /* Math KeeperTests */,
+				E0CF19721F09F1B6009685C6 /* Math KeeperUITests */,
+				E0CF194C1F09F1B5009685C6 /* Products */,
+				ABFBA2B5B2740B50E9B42B74 /* Pods */,
+				B951955DD83AC8F3E9E34A53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E0CF194C1F09F1B5009685C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0CF194B1F09F1B5009685C6 /* Math Keeper.app */,
+				E0CF19641F09F1B6009685C6 /* Math KeeperTests.xctest */,
+				E0CF196F1F09F1B6009685C6 /* Math KeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0CF194D1F09F1B5009685C6 /* Math Keeper */ = {
+			isa = PBXGroup;
+			children = (
+				E0CF19511F09F1B5009685C6 /* AppDelegate.h */,
+				E0CF19521F09F1B5009685C6 /* AppDelegate.m */,
+				E03DEABD1F0AB92E0039A5F3 /* WMKEditManager.h */,
+				E03DEABE1F0AB92E0039A5F3 /* WMKEditManager.m */,
+				E0CF19571F09F1B5009685C6 /* Main.storyboard */,
+				E0CF195C1F09F1B5009685C6 /* LaunchScreen.storyboard */,
+				E0951E311F395500000CEC6A /* WMKPageViewController.h */,
+				E0951E321F395500000CEC6A /* WMKPageViewController.m */,
+				E03DEA9F1F0AB8640039A5F3 /* WMKMainCollectionViewController.h */,
+				E03DEAA01F0AB8640039A5F3 /* WMKMainCollectionViewController.m */,
+				E00010BE1F0C14E8004F2F62 /* WMKEditMainTableViewController.h */,
+				E00010BF1F0C14E8004F2F62 /* WMKEditMainTableViewController.m */,
+				E0B61D211F119405008068A9 /* WMKCategoryViewController.h */,
+				E0B61D221F119405008068A9 /* WMKCategoryViewController.m */,
+				E03DEAA51F0AB88D0039A5F3 /* WMKSubcategoryViewController.h */,
+				E03DEAA61F0AB88D0039A5F3 /* WMKSubcategoryViewController.m */,
+				E03DEAA81F0AB89A0039A5F3 /* WMKFormulaViewController.h */,
+				E03DEAA91F0AB89A0039A5F3 /* WMKFormulaViewController.m */,
+				E00010C41F0C19F3004F2F62 /* WMKSearchTableViewController.h */,
+				E00010C51F0C19F3004F2F62 /* WMKSearchTableViewController.m */,
+				E03DEAAB1F0AB8B40039A5F3 /* WMKCategoryCollectionViewCell.h */,
+				E03DEAAC1F0AB8B40039A5F3 /* WMKCategoryCollectionViewCell.m */,
+				E00010C11F0C19D2004F2F62 /* WMKCategoryTableViewCell.h */,
+				E00010C21F0C19D2004F2F62 /* WMKCategoryTableViewCell.m */,
+				E03DEAB11F0AB8DC0039A5F3 /* WMKFormulaTableViewCell.h */,
+				E03DEAB21F0AB8DC0039A5F3 /* WMKFormulaTableViewCell.m */,
+				E03DEAB41F0AB8F20039A5F3 /* WMKSearchTableViewCell.h */,
+				E03DEAB51F0AB8F20039A5F3 /* WMKSearchTableViewCell.m */,
+				E03DEAB71F0AB9070039A5F3 /* WMKNewFormulaTableViewController.h */,
+				E03DEAB81F0AB9070039A5F3 /* WMKNewFormulaTableViewController.m */,
+				E03DEABA1F0AB9150039A5F3 /* WMKSettingsTableViewController.h */,
+				E03DEABB1F0AB9150039A5F3 /* WMKSettingsTableViewController.m */,
+				E03DEA991F0AB82D0039A5F3 /* WMKMathKeyboardRootView.h */,
+				E03DEA9A1F0AB82D0039A5F3 /* WMKMathKeyboardRootView.m */,
+				E03DEA9C1F0AB8500039A5F3 /* WMKMathKeyboard.h */,
+				E03DEA9D1F0AB8500039A5F3 /* WMKMathKeyboard.m */,
+				E097D1111F3AA7E500720370 /* WMKCalculatorViewController.h */,
+				E097D1121F3AA7E500720370 /* WMKCalculatorViewController.m */,
+				E097D10E1F3AA7CD00720370 /* WMKCalculatorHistoryTableViewCell.h */,
+				E097D10F1F3AA7CD00720370 /* WMKCalculatorHistoryTableViewCell.m */,
+				E0821D001F3D431A00031882 /* WMKCalculatorEntryLabel.h */,
+				E0821D011F3D431A00031882 /* WMKCalculatorEntryLabel.m */,
+				E03A11821F3CEB5000D4088E /* WMKCalculatorKeypad.h */,
+				E03A11831F3CEB5000D4088E /* WMKCalculatorKeypad.m */,
+				E0CF19811F09F267009685C6 /* Resources */,
+				E0CF194E1F09F1B5009685C6 /* Supporting Files */,
+			);
+			path = "Math Keeper";
+			sourceTree = "<group>";
+		};
+		E0CF194E1F09F1B5009685C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0CF194F1F09F1B5009685C6 /* main.m */,
+				E0CF195F1F09F1B5009685C6 /* Info.plist */,
+				E078E3C71F391184002B1C37 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0CF19671F09F1B6009685C6 /* Math KeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0CF19681F09F1B6009685C6 /* Math_KeeperTests.m */,
+				E0CF196A1F09F1B6009685C6 /* Info.plist */,
+			);
+			path = "Math KeeperTests";
+			sourceTree = "<group>";
+		};
+		E0CF19721F09F1B6009685C6 /* Math KeeperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0CF19731F09F1B6009685C6 /* Math_KeeperUITests.m */,
+				E0CF19751F09F1B6009685C6 /* Info.plist */,
+			);
+			path = "Math KeeperUITests";
+			sourceTree = "<group>";
+		};
+		E0CF19811F09F267009685C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0FF1F261F0B088500F4ECB7 /* DefaultFormulas.plist */,
+				E0CF195A1F09F1B5009685C6 /* Assets.xcassets */,
+				E010B2AE1F0D3D79001B908D /* Categories.xcassets */,
+				E0CF19821F09F2A4009685C6 /* Subcategories.xcassets */,
+				E0CF19841F09F2B3009685C6 /* Keyboard.xcassets */,
+				E0E622861F3BBA3800578F31 /* Calculator.xcassets */,
+				E0FF1F281F0B08DE00F4ECB7 /* WMKMathKeyboardRootView.xib */,
+				E078E3C21F390C6D002B1C37 /* WMKMathKeyboardTab1.xib */,
+				E0FF1F2A1F0B08DE00F4ECB7 /* WMKMathKeyboardTab2.xib */,
+				E0FF1F2B1F0B08DE00F4ECB7 /* WMKMathKeyboardTab3.xib */,
+				E0FF1F2C1F0B08DE00F4ECB7 /* WMKMathKeyboardTab4.xib */,
+				E0FF1F2D1F0B08DE00F4ECB7 /* WMKMathKeyboardTab5.xib */,
+				E078E3CB1F391220002B1C37 /* WMKMathKeyboardTab6.xib */,
+				E0175CE91F3B90BE00307F4F /* WMKCalculatorPage1.xib */,
+				E0175CEB1F3B910600307F4F /* WMKCalculatorPage2.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0CF194A1F09F1B5009685C6 /* Math Keeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0CF19781F09F1B6009685C6 /* Build configuration list for PBXNativeTarget "Math Keeper" */;
+			buildPhases = (
+				A8F26A65DC5F60A444D212F5 /* [CP] Check Pods Manifest.lock */,
+				E0CF19471F09F1B5009685C6 /* Sources */,
+				E0CF19481F09F1B5009685C6 /* Frameworks */,
+				E0CF19491F09F1B5009685C6 /* Resources */,
+				BD418540DF54AC232CDB5653 /* [CP] Embed Pods Frameworks */,
+				9F0E639C314A771333A7AEC9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Math Keeper";
+			productName = "Math Keeper";
+			productReference = E0CF194B1F09F1B5009685C6 /* Math Keeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0CF19631F09F1B6009685C6 /* Math KeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0CF197B1F09F1B6009685C6 /* Build configuration list for PBXNativeTarget "Math KeeperTests" */;
+			buildPhases = (
+				E0CF19601F09F1B6009685C6 /* Sources */,
+				E0CF19611F09F1B6009685C6 /* Frameworks */,
+				E0CF19621F09F1B6009685C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0CF19661F09F1B6009685C6 /* PBXTargetDependency */,
+			);
+			name = "Math KeeperTests";
+			productName = "Math KeeperTests";
+			productReference = E0CF19641F09F1B6009685C6 /* Math KeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0CF196E1F09F1B6009685C6 /* Math KeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0CF197E1F09F1B6009685C6 /* Build configuration list for PBXNativeTarget "Math KeeperUITests" */;
+			buildPhases = (
+				E0CF196B1F09F1B6009685C6 /* Sources */,
+				E0CF196C1F09F1B6009685C6 /* Frameworks */,
+				E0CF196D1F09F1B6009685C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0CF19711F09F1B6009685C6 /* PBXTargetDependency */,
+			);
+			name = "Math KeeperUITests";
+			productName = "Math KeeperUITests";
+			productReference = E0CF196F1F09F1B6009685C6 /* Math KeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0CF19431F09F1B5009685C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "William Wu";
+				TargetAttributes = {
+					E0CF194A1F09F1B5009685C6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FFB5P5C3G7;
+						ProvisioningStyle = Automatic;
+					};
+					E0CF19631F09F1B6009685C6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XNND59DTD5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0CF194A1F09F1B5009685C6;
+					};
+					E0CF196E1F09F1B6009685C6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XNND59DTD5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0CF194A1F09F1B5009685C6;
+					};
+				};
+			};
+			buildConfigurationList = E0CF19461F09F1B5009685C6 /* Build configuration list for PBXProject "Math Keeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = E0CF19421F09F1B5009685C6;
+			productRefGroup = E0CF194C1F09F1B5009685C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0CF194A1F09F1B5009685C6 /* Math Keeper */,
+				E0CF19631F09F1B6009685C6 /* Math KeeperTests */,
+				E0CF196E1F09F1B6009685C6 /* Math KeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0CF19491F09F1B5009685C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E078E3C91F391220002B1C37 /* WMKMathKeyboardTab6.xib in Resources */,
+				E078E3C01F390C6D002B1C37 /* WMKMathKeyboardTab1.xib in Resources */,
+				E0CF195E1F09F1B5009685C6 /* LaunchScreen.storyboard in Resources */,
+				E0CF19851F09F2B3009685C6 /* Keyboard.xcassets in Resources */,
+				E0FF1F2F1F0B08DE00F4ECB7 /* WMKMathKeyboardRootView.xib in Resources */,
+				E0FF1F341F0B08DE00F4ECB7 /* WMKMathKeyboardTab5.xib in Resources */,
+				E0FF1F321F0B08DE00F4ECB7 /* WMKMathKeyboardTab3.xib in Resources */,
+				E0E622871F3BBA3800578F31 /* Calculator.xcassets in Resources */,
+				E0CF19831F09F2A4009685C6 /* Subcategories.xcassets in Resources */,
+				E0FF1F311F0B08DE00F4ECB7 /* WMKMathKeyboardTab2.xib in Resources */,
+				E0CF195B1F09F1B5009685C6 /* Assets.xcassets in Resources */,
+				E078E3C81F391184002B1C37 /* Localizable.strings in Resources */,
+				E0CF19591F09F1B5009685C6 /* Main.storyboard in Resources */,
+				E0175CEC1F3B910600307F4F /* WMKCalculatorPage2.xib in Resources */,
+				E010B2AF1F0D3D79001B908D /* Categories.xcassets in Resources */,
+				E0FF1F271F0B088500F4ECB7 /* DefaultFormulas.plist in Resources */,
+				E0175CEA1F3B90BE00307F4F /* WMKCalculatorPage1.xib in Resources */,
+				E0FF1F331F0B08DE00F4ECB7 /* WMKMathKeyboardTab4.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CF19621F09F1B6009685C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CF196D1F09F1B6009685C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F0E639C314A771333A7AEC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Math Keeper/Pods-Math Keeper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F26A65DC5F60A444D212F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD418540DF54AC232CDB5653 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Math Keeper/Pods-Math Keeper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0CF19471F09F1B5009685C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B61D231F119405008068A9 /* WMKCategoryViewController.m in Sources */,
+				E00010C31F0C19D2004F2F62 /* WMKCategoryTableViewCell.m in Sources */,
+				E00010C61F0C19F3004F2F62 /* WMKSearchTableViewController.m in Sources */,
+				E03DEA9E1F0AB8500039A5F3 /* WMKMathKeyboard.m in Sources */,
+				E03DEAA11F0AB8640039A5F3 /* WMKMainCollectionViewController.m in Sources */,
+				E03DEAB91F0AB9070039A5F3 /* WMKNewFormulaTableViewController.m in Sources */,
+				E03A11841F3CEB5000D4088E /* WMKCalculatorKeypad.m in Sources */,
+				E03DEABF1F0AB92E0039A5F3 /* WMKEditManager.m in Sources */,
+				E03DEABC1F0AB9150039A5F3 /* WMKSettingsTableViewController.m in Sources */,
+				E03DEAB31F0AB8DC0039A5F3 /* WMKFormulaTableViewCell.m in Sources */,
+				E097D1101F3AA7CD00720370 /* WMKCalculatorHistoryTableViewCell.m in Sources */,
+				E00010C01F0C14E8004F2F62 /* WMKEditMainTableViewController.m in Sources */,
+				E03DEAAA1F0AB89A0039A5F3 /* WMKFormulaViewController.m in Sources */,
+				E097D1131F3AA7E500720370 /* WMKCalculatorViewController.m in Sources */,
+				E03DEAAD1F0AB8B40039A5F3 /* WMKCategoryCollectionViewCell.m in Sources */,
+				E0CF19531F09F1B5009685C6 /* AppDelegate.m in Sources */,
+				E0CF19501F09F1B5009685C6 /* main.m in Sources */,
+				E03DEAB61F0AB8F20039A5F3 /* WMKSearchTableViewCell.m in Sources */,
+				E0821D021F3D431A00031882 /* WMKCalculatorEntryLabel.m in Sources */,
+				E03DEA9B1F0AB82D0039A5F3 /* WMKMathKeyboardRootView.m in Sources */,
+				E03DEAA71F0AB88D0039A5F3 /* WMKSubcategoryViewController.m in Sources */,
+				E0951E331F395500000CEC6A /* WMKPageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CF19601F09F1B6009685C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0CF19691F09F1B6009685C6 /* Math_KeeperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CF196B1F09F1B6009685C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0CF19741F09F1B6009685C6 /* Math_KeeperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0CF19661F09F1B6009685C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0CF194A1F09F1B5009685C6 /* Math Keeper */;
+			targetProxy = E0CF19651F09F1B6009685C6 /* PBXContainerItemProxy */;
+		};
+		E0CF19711F09F1B6009685C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0CF194A1F09F1B5009685C6 /* Math Keeper */;
+			targetProxy = E0CF19701F09F1B6009685C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E078E3C21F390C6D002B1C37 /* WMKMathKeyboardTab1.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E078E3C11F390C6D002B1C37 /* Base */,
+			);
+			name = WMKMathKeyboardTab1.xib;
+			sourceTree = "<group>";
+		};
+		E078E3CB1F391220002B1C37 /* WMKMathKeyboardTab6.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E078E3CA1F391220002B1C37 /* Base */,
+			);
+			name = WMKMathKeyboardTab6.xib;
+			sourceTree = "<group>";
+		};
+		E0CF19571F09F1B5009685C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0CF19581F09F1B5009685C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0CF195C1F09F1B5009685C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0CF195D1F09F1B5009685C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0CF19761F09F1B6009685C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0CF19771F09F1B6009685C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0CF19791F09F1B6009685C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB691117273EAB7316E17C2 /* Pods-Math Keeper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FFB5P5C3G7;
+				INFOPLIST_FILE = "Math Keeper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamwu.MathKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0CF197A1F09F1B6009685C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D72F50CCD7F05260CE472BB /* Pods-Math Keeper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FFB5P5C3G7;
+				INFOPLIST_FILE = "Math Keeper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamwu.MathKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E0CF197C1F09F1B6009685C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XNND59DTD5;
+				INFOPLIST_FILE = "Math KeeperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.williamwu.Math-KeeperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Math Keeper.app/Math Keeper";
+			};
+			name = Debug;
+		};
+		E0CF197D1F09F1B6009685C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XNND59DTD5;
+				INFOPLIST_FILE = "Math KeeperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.williamwu.Math-KeeperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Math Keeper.app/Math Keeper";
+			};
+			name = Release;
+		};
+		E0CF197F1F09F1B6009685C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XNND59DTD5;
+				INFOPLIST_FILE = "Math KeeperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.williamwu.Math-KeeperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Math Keeper";
+			};
+			name = Debug;
+		};
+		E0CF19801F09F1B6009685C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XNND59DTD5;
+				INFOPLIST_FILE = "Math KeeperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.williamwu.Math-KeeperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Math Keeper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0CF19461F09F1B5009685C6 /* Build configuration list for PBXProject "Math Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0CF19761F09F1B6009685C6 /* Debug */,
+				E0CF19771F09F1B6009685C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0CF19781F09F1B6009685C6 /* Build configuration list for PBXNativeTarget "Math Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0CF19791F09F1B6009685C6 /* Debug */,
+				E0CF197A1F09F1B6009685C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0CF197B1F09F1B6009685C6 /* Build configuration list for PBXNativeTarget "Math KeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0CF197C1F09F1B6009685C6 /* Debug */,
+				E0CF197D1F09F1B6009685C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0CF197E1F09F1B6009685C6 /* Build configuration list for PBXNativeTarget "Math KeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0CF197F1F09F1B6009685C6 /* Debug */,
+				E0CF19801F09F1B6009685C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0CF19431F09F1B5009685C6 /* Project object */;
+}

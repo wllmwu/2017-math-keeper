@@ -1,0 +1,1139 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		039E6D893A5FA1EC3C301F3F4AF3014C /* MTEditableMathLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D63D905C58603D2F6CAED0F289A979 /* MTEditableMathLabel.m */; };
+		04596CEEF218EB0ABA988EFB42990934 /* MTKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8D3A03CD24906B1C4F3783D0317DF6 /* MTKeyboard.m */; };
+		054869A371752A2E17D9355FA8391598 /* MTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0122A8466EC0B79474194DC61FCB0AF5 /* MTLabel.m */; };
+		138AADD170414B2E0EDBC23A5416609B /* MTMathListBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F70BB08417DE99F857533D9DC5B7113 /* MTMathListBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		189D29AA525AA039D21FB584C537864C /* lmroman10-bolditalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 156D92C4EB484CB1962881D0F208B312 /* lmroman10-bolditalic.otf */; };
+		1CD29BB3FB8BB6FD0B136F71EF6ECCE6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755FAE73277FCB766461DDF0A4841EC5 /* CoreText.framework */; };
+		1F14E85E48B7D839A6E6C7C385396279 /* MTKeyboardTab4.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5EDE265B2378650DABE98CB82F436A6 /* MTKeyboardTab4.xib */; };
+		271B1EB4B79125A11F8857C68C23F6AC /* MTTypesetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E758C5FDA9D90E165E0DAC5B307F76 /* MTTypesetter.m */; };
+		282EEB1AF28B26E269CC2C2D9B7A42C2 /* NSColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C721F0D9AE9CFE543C3846262222382 /* NSColor+HexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B9BCF78BB906E151FAC3077DA70BE81 /* NSView+backgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AD8BDAE55B72C7320CB02660780141 /* NSView+backgroundColor.m */; };
+		2E6A410EB27370B2458FED3E071EF671 /* iosMath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9672DD18A6BDB3528EBA033ABB5C15 /* iosMath-dummy.m */; };
+		2F1AA67CF0D85DA31856BCB45898310C /* MTMathKeyboardRootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC679126E314C8BB7F58ECB224AFFC10 /* MTMathKeyboardRootView.xib */; };
+		30CC65767C4B62A70BF7B1CCEA416099 /* MTMathListIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA39F7B3C4F23E7AAA71732E8328E55 /* MTMathListIndex.m */; };
+		3691A35012BE50BA15EE0D5C17BDA42A /* MTMathList.h in Headers */ = {isa = PBXBuildFile; fileRef = C11B69E33CB4FC2CFEB4E7F57D4B005B /* MTMathList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		398946997503FBB721891DCF546D4DA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AA6E4C10206C3EE9ADFA1D694F1143 /* CoreGraphics.framework */; };
+		3EA29B5D5AE62B30286E58260923B661 /* NSView+backgroundColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 493C50AD94BB6C783A82153DE06D7708 /* NSView+backgroundColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42392823D3A8F54F27C12B8DFAB333FF /* xits-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = E18E1FDA65E4E7C3BF702873A24C8C61 /* xits-math.plist */; };
+		443456EF4FF6E052EB576E833209805D /* MTUnicode.h in Headers */ = {isa = PBXBuildFile; fileRef = 14ED7F314272363FDEDAA8B33FBAFA23 /* MTUnicode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C0863E0A0AD9FB73F548BD98C6D508 /* latinmodern-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2B18796FC87D82F2B7622ACE3D8215B /* latinmodern-math.otf */; };
+		4C6B64CFC34FB7EB43CE8E4084206B5C /* MTMathAtomFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA5FD3B3487243088D92F1C6D0AF70 /* MTMathAtomFactory.m */; };
+		4F51DC8447E95BA1A2BA914BC2BD76BF /* MTFontMathTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB18133528EF21120615B579F0CA4CE /* MTFontMathTable.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		564ED725853770DA6162C9BB17FB80EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A48DB1C8052F1B842C0010D6FE3264 /* Foundation.framework */; };
+		5939D6E9AF67065B2766B27ED0306DA8 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 3009AEF4ABDF3FDF4C18B2E7FC6C5A91 /* UIColor+HexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64CB20A625A56559E84C4853478BD503 /* MTMathList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7896FBEDBC480B7A3E4DBDEDDE8393B3 /* MTMathList.m */; };
+		6F5F09C7B01EE7BFCB2CD8B3C3491247 /* MTKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = B12C3E90A6A18774BFFE7D177EDE13AF /* MTKeyboard.xib */; };
+		75A1388F2700ACA4D3A67DBE6EA3ADE2 /* MTDisplay+Editing.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FAC2AAC03818E6D35C8B133F6ABB20 /* MTDisplay+Editing.m */; };
+		76209464A8E103CD7D8F9AB036CC6AEF /* MTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F910ECF2C8D57751A1179264F12212B2 /* MTConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DE58002884DE3A5F4EF88C940E11CAD /* MTMathList+Editing.m in Sources */ = {isa = PBXBuildFile; fileRef = A72C27942C5830417EF6002717E2D62F /* MTMathList+Editing.m */; };
+		85AF520E5833823045EC51A2F5EA4F69 /* MTMathUILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 73EAB2E4EFCEDC72B409CC2E8724FD90 /* MTMathUILabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85BFCE86FDFF9A472407BC297C53A666 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9584A1F2D6F127A85944AD33BEA278D /* QuartzCore.framework */; };
+		8933FA17783C0A60DFE4B6ABEBD3640B /* texgyretermes-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE00DF246D400758EE7D21DAD8124675 /* texgyretermes-math.plist */; };
+		8D1F787155355A29AC7E5576EBCC2434 /* MathEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C49E6BBB56C594DB6D643B51986E4 /* MathEditor-dummy.m */; };
+		8EC3C3B3126F57D0D1AECAAA9BE5D255 /* MTKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = F3B5376E0E4E997163750C8374CB8BFF /* MTKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE25BF48ACE8540CD527B8D020B66F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A48DB1C8052F1B842C0010D6FE3264 /* Foundation.framework */; };
+		90A1E6D3B6261FD3E9EA2AA10F09EE26 /* MTKeyboardTab3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08C6A9061716C8A6D41D7413797E192B /* MTKeyboardTab3.xib */; };
+		944A6D2D0E7AD24793DBE2BC0A4B7554 /* NSBezierPath+addLineToPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B280C94E62D6F899DCE8171EF06E80E /* NSBezierPath+addLineToPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94CF097806DB665CF4796D4FDA9F69AD /* KeyboardAssests.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A997DEBC11B526465F67AA44FFCD670 /* KeyboardAssests.xcassets */; };
+		97277D9A3E1E5FF9FF24947792018182 /* MTFont.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7C41FB2DBBDBC17FAB5C13B7D9896F /* MTFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DC39738778992E95544215C36B2595D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FDCAA1EADCFD367E1698CDE25DE0DF /* UIKit.framework */; };
+		A077A1C7662A66FC2E228BAECE5FCADE /* NSBezierPath+addLineToPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8229ABECF46B97C44276A34E386003 /* NSBezierPath+addLineToPoint.m */; };
+		A1CBA2AD9D481974457DF1E087367AA2 /* MTKeyboardTab2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C521A2B90AE6DA9AFF048D7533E762D5 /* MTKeyboardTab2.xib */; };
+		ADAF8960314E5201FE960D3D8FCD5809 /* MTMathUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4A17423E6E64C4B077B2D83F6060BE /* MTMathUILabel.m */; };
+		AE1469E2D51AC6B6BBBC2E3345BDECC2 /* MTMathAtomFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = BB7CE12CCF251A6DD15B35B88AEC000A /* MTMathAtomFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B01ED3F24569F034E4BDD71E76C5CBE2 /* MTFontMathTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D246AE238103CD5293BBD73793BDB4B /* MTFontMathTable.m */; };
+		B5780F11187DDC5AB95AEE6769FA5920 /* texgyretermes-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = DCA0833F3020F7656C2F3AE771092E42 /* texgyretermes-math.otf */; };
+		B671947CD605743E6061F6D53F7E41AA /* MTTypesetter.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F60FF0ED79ECBDD34050FD0D88CC30 /* MTTypesetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B925301D3C278A08CD9713988663AEB8 /* MTFont+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 62EB64108E21A81574691A6FC8E96005 /* MTFont+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B962C7D6F8BE9C791D3B2DA94B0650AF /* MTMathListBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B42BA91861ECF35531828613816EE3A7 /* MTMathListBuilder.m */; };
+		C27408F7EE7CEBB88A323BA9A90F2ECF /* MTMathKeyboardRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F1AD09E005A18046AE1AE63C51F35 /* MTMathKeyboardRootView.m */; };
+		C424452CFC97FF49DFFBFE4856F2AE06 /* IosMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 29964E440E19C9F486AD375BB04B8719 /* IosMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6620EE877840123B8CF84D7A82D4FC0 /* MTMathKeyboardRootView.h in Headers */ = {isa = PBXBuildFile; fileRef = A374F6F7D8A9CAD6486CD6DA72D075C8 /* MTMathKeyboardRootView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB4D39522856AAC4CDD30D7492DDC15E /* MTMathListDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B41E9A81843EBD74AE5527FB8FBC1C /* MTMathListDisplay.m */; };
+		CE715630C99F8522C2BCBA9A53CF450B /* MTCaretView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5D41A1FCA7458E2037E41163964FDF /* MTCaretView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D0CADF57155E6C4E880DB975987B2E9B /* MTEditableMathLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 568AE714F350B8DD224DD4DC33C10476 /* MTEditableMathLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D374D6DDBB9584A7168608F96F99612B /* MTFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0FA8BB1B23DAC3ED4890278C2CDD8A /* MTFontManager.m */; };
+		D3E4AD401C2278FEF60D57EA156E6086 /* MTFontManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5420B33796EECF3655507E1E09EB3A /* MTFontManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4EB3EF6C8A21234E40AB77C108483B5 /* MTUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D3A608B9C96BB7373F7ED6DFB8A71C /* MTUnicode.m */; };
+		DC6800380AFBF3DC27AA456BCD3185D4 /* latinmodern-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5965E4A2526EAF739B4462691B3C628E /* latinmodern-math.plist */; };
+		DD19D8BE138BC032B49500B758BC1C0D /* Pods-Math Keeper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F7E53A2A826A57C09767CEA3816A5 /* Pods-Math Keeper-dummy.m */; };
+		DE7000EA8ED4A49C11EB3B13B2C80B2F /* WhiteBGKeyboardTab.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE00B980CB2E2FEFCDEA93F747D3C30 /* WhiteBGKeyboardTab.xcassets */; };
+		DE92F28BA83DD4838B209FF90FC41859 /* MTFont.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B7D54015A9E866D2FD113CB3BC2CCF /* MTFont.m */; };
+		E0CBA1109D6BB921103A5C0F95419214 /* MTMathList+Editing.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A46132DEBAFE055AF901B7DE00ED45B /* MTMathList+Editing.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E5FA0F994C1F342B3F346A6787D248D6 /* NewKeyboardAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56A8F2455D1691C71B69EDEA1A38369 /* NewKeyboardAssets.xcassets */; };
+		E791442F9A13A0BB4CEC791BE00CE605 /* xits-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = 79F4225EE83E8A5E2855B262DED69AD3 /* xits-math.otf */; };
+		E8468A840B15EA1AB438448E3D202DAC /* MTDisplay+Editing.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BDE47CFA28F203BE4E1C8D2635E2A5F /* MTDisplay+Editing.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F27907919E229EEEE11458CC9123B614 /* MTLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D5DA9F1481E4DCA74C3478E49FE0EB /* MTLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2B103F21865D6EF57BB87E0E017CA6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FDCAA1EADCFD367E1698CDE25DE0DF /* UIKit.framework */; };
+		F2C55F3EE6F4DBDBAD0BC9B63206A69D /* MTCaretView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD32E2063C57FE6FADE8CDE017E6A5 /* MTCaretView.m */; };
+		F505FF26AC5054A1E0C880DF0E739137 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D410E25AFB06421A777CC6774E3353 /* UIColor+HexString.m */; };
+		F739162424F4F7C228E6A1F0DED936EC /* MTMathListIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB7016E35924802C6B8BC1263990F58 /* MTMathListIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F813A8EDE2B7D81995EA7AD8813830C6 /* MTMathListDisplayInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0286C93471C56B84C200E162AB22F0AB /* MTMathListDisplayInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F8B560E9EAB3AC6CE55FD755965951F9 /* NSColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = A99317B605DB741A789D7D532A1DD5F2 /* NSColor+HexString.m */; };
+		F90B782EB576FF2A7B8F4B6C25AA0C8F /* MTMathListDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 226225390781AED31D7615FF7716A10F /* MTMathListDisplay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA1184872C44F12B731B03D95B89B420 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A48DB1C8052F1B842C0010D6FE3264 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17F1D691796271BFFCFA54E43BF03C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 106FC25179840A703AC26084904B7B03;
+			remoteInfo = iosMath;
+		};
+		6AAB9D19A4EA5FFBD947BFC5A676E9F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 106FC25179840A703AC26084904B7B03;
+			remoteInfo = iosMath;
+		};
+		9443D892F57571DB585F3ABFD6D3DA79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 765283D43FF55D531F9957C861E6181D;
+			remoteInfo = "MathEditor-MTKeyboardResources";
+		};
+		B87D199995F70FC8863AA591E2DAC243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 515694D13D6BF34300203C6A083A1A42;
+			remoteInfo = "iosMath-mathFonts";
+		};
+		F1074D43474CA729EDF17879E78A3758 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5806A57708C47CDEAAC55513109AB005;
+			remoteInfo = MathEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0122A8466EC0B79474194DC61FCB0AF5 /* MTLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLabel.m; path = iosMath/render/MTLabel.m; sourceTree = "<group>"; };
+		0286C93471C56B84C200E162AB22F0AB /* MTMathListDisplayInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathListDisplayInternal.h; path = iosMath/render/internal/MTMathListDisplayInternal.h; sourceTree = "<group>"; };
+		08C6A9061716C8A6D41D7413797E192B /* MTKeyboardTab3.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MTKeyboardTab3.xib; path = MathKeyboardResources/MTKeyboardTab3.xib; sourceTree = "<group>"; };
+		0A8F7E53A2A826A57C09767CEA3816A5 /* Pods-Math Keeper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Math Keeper-dummy.m"; sourceTree = "<group>"; };
+		0BF9885D4846FE2949701B9BE312F020 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		0D246AE238103CD5293BBD73793BDB4B /* MTFontMathTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTFontMathTable.m; path = iosMath/render/internal/MTFontMathTable.m; sourceTree = "<group>"; };
+		0F70BB08417DE99F857533D9DC5B7113 /* MTMathListBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathListBuilder.h; path = iosMath/lib/MTMathListBuilder.h; sourceTree = "<group>"; };
+		14ED7F314272363FDEDAA8B33FBAFA23 /* MTUnicode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTUnicode.h; path = iosMath/lib/MTUnicode.h; sourceTree = "<group>"; };
+		156D92C4EB484CB1962881D0F208B312 /* lmroman10-bolditalic.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "lmroman10-bolditalic.otf"; path = "MathKeyboardResources/lmroman10-bolditalic.otf"; sourceTree = "<group>"; };
+		1C8AAF9E549593B5FC9E0198D8E383BF /* libiosMath.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiosMath.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		226225390781AED31D7615FF7716A10F /* MTMathListDisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathListDisplay.h; path = iosMath/render/MTMathListDisplay.h; sourceTree = "<group>"; };
+		29964E440E19C9F486AD375BB04B8719 /* IosMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IosMath.h; path = iosMath/IosMath.h; sourceTree = "<group>"; };
+		29AA6E4C10206C3EE9ADFA1D694F1143 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		2A5420B33796EECF3655507E1E09EB3A /* MTFontManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTFontManager.h; path = iosMath/render/MTFontManager.h; sourceTree = "<group>"; };
+		2A66CF23FF1E12D2F5D592A5BFE0739B /* libPods-Math Keeper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Math Keeper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD671C27F5116485D88D9BBF61336D5 /* Pods-Math Keeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Math Keeper.release.xcconfig"; sourceTree = "<group>"; };
+		2B280C94E62D6F899DCE8171EF06E80E /* NSBezierPath+addLineToPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+addLineToPoint.h"; path = "iosMath/render/NSBezierPath+addLineToPoint.h"; sourceTree = "<group>"; };
+		2BDE47CFA28F203BE4E1C8D2635E2A5F /* MTDisplay+Editing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTDisplay+Editing.h"; path = "mathEditor/internal/MTDisplay+Editing.h"; sourceTree = "<group>"; };
+		2F8229ABECF46B97C44276A34E386003 /* NSBezierPath+addLineToPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+addLineToPoint.m"; path = "iosMath/render/NSBezierPath+addLineToPoint.m"; sourceTree = "<group>"; };
+		3009AEF4ABDF3FDF4C18B2E7FC6C5A91 /* UIColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexString.h"; path = "iosMath/render/UIColor+HexString.h"; sourceTree = "<group>"; };
+		30A48DB1C8052F1B842C0010D6FE3264 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A46132DEBAFE055AF901B7DE00ED45B /* MTMathList+Editing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTMathList+Editing.h"; path = "mathEditor/internal/MTMathList+Editing.h"; sourceTree = "<group>"; };
+		3AC8ED5D6751C4F12CCD553F321AC48A /* Pods-Math Keeper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Math Keeper-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EB18133528EF21120615B579F0CA4CE /* MTFontMathTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTFontMathTable.h; path = iosMath/render/internal/MTFontMathTable.h; sourceTree = "<group>"; };
+		3F6467221FF27EC986A0F35E84F3E9FC /* MTKeyboardResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTKeyboardResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D5DA9F1481E4DCA74C3478E49FE0EB /* MTLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLabel.h; path = iosMath/render/MTLabel.h; sourceTree = "<group>"; };
+		48FAC2AAC03818E6D35C8B133F6ABB20 /* MTDisplay+Editing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MTDisplay+Editing.m"; path = "mathEditor/internal/MTDisplay+Editing.m"; sourceTree = "<group>"; };
+		493C50AD94BB6C783A82153DE06D7708 /* NSView+backgroundColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSView+backgroundColor.h"; path = "iosMath/render/NSView+backgroundColor.h"; sourceTree = "<group>"; };
+		4BCA5FD3B3487243088D92F1C6D0AF70 /* MTMathAtomFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMathAtomFactory.m; path = iosMath/lib/MTMathAtomFactory.m; sourceTree = "<group>"; };
+		4BE315E41514DDC3BC54B6AE240A6228 /* ResourceBundle-MTKeyboardResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MTKeyboardResources-Info.plist"; sourceTree = "<group>"; };
+		51B41E9A81843EBD74AE5527FB8FBC1C /* MTMathListDisplay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMathListDisplay.m; path = iosMath/render/MTMathListDisplay.m; sourceTree = "<group>"; };
+		568AE714F350B8DD224DD4DC33C10476 /* MTEditableMathLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTEditableMathLabel.h; path = mathEditor/editor/MTEditableMathLabel.h; sourceTree = "<group>"; };
+		58AD8BDAE55B72C7320CB02660780141 /* NSView+backgroundColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSView+backgroundColor.m"; path = "iosMath/render/NSView+backgroundColor.m"; sourceTree = "<group>"; };
+		5965E4A2526EAF739B4462691B3C628E /* latinmodern-math.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "latinmodern-math.plist"; path = "fonts/latinmodern-math.plist"; sourceTree = "<group>"; };
+		5ADD32E2063C57FE6FADE8CDE017E6A5 /* MTCaretView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTCaretView.m; path = mathEditor/internal/MTCaretView.m; sourceTree = "<group>"; };
+		5B49A6EE5700C0E76BEDCC86535A122D /* Pods-Math Keeper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Math Keeper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C5D41A1FCA7458E2037E41163964FDF /* MTCaretView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTCaretView.h; path = mathEditor/internal/MTCaretView.h; sourceTree = "<group>"; };
+		62EB64108E21A81574691A6FC8E96005 /* MTFont+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTFont+Internal.h"; path = "iosMath/render/internal/MTFont+Internal.h"; sourceTree = "<group>"; };
+		6A997DEBC11B526465F67AA44FFCD670 /* KeyboardAssests.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = KeyboardAssests.xcassets; path = MathKeyboardResources/KeyboardAssests.xcassets; sourceTree = "<group>"; };
+		6B000C46932AC7403B3D2FB00CED77FC /* ResourceBundle-mathFonts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-mathFonts-Info.plist"; sourceTree = "<group>"; };
+		6B1F98B661FD52C8DFEA3A459B771E4F /* MathEditor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MathEditor.xcconfig; sourceTree = "<group>"; };
+		73EAB2E4EFCEDC72B409CC2E8724FD90 /* MTMathUILabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathUILabel.h; path = iosMath/render/MTMathUILabel.h; sourceTree = "<group>"; };
+		755FAE73277FCB766461DDF0A4841EC5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		7896FBEDBC480B7A3E4DBDEDDE8393B3 /* MTMathList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMathList.m; path = iosMath/lib/MTMathList.m; sourceTree = "<group>"; };
+		79F4225EE83E8A5E2855B262DED69AD3 /* xits-math.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "xits-math.otf"; path = "fonts/xits-math.otf"; sourceTree = "<group>"; };
+		7B9C49E6BBB56C594DB6D643B51986E4 /* MathEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MathEditor-dummy.m"; sourceTree = "<group>"; };
+		7BE00B980CB2E2FEFCDEA93F747D3C30 /* WhiteBGKeyboardTab.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = WhiteBGKeyboardTab.xcassets; path = MathKeyboardResources/WhiteBGKeyboardTab.xcassets; sourceTree = "<group>"; };
+		7F4F1AD09E005A18046AE1AE63C51F35 /* MTMathKeyboardRootView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMathKeyboardRootView.m; path = mathEditor/keyboard/MTMathKeyboardRootView.m; sourceTree = "<group>"; };
+		82E758C5FDA9D90E165E0DAC5B307F76 /* MTTypesetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTTypesetter.m; path = iosMath/render/internal/MTTypesetter.m; sourceTree = "<group>"; };
+		85FDCAA1EADCFD367E1698CDE25DE0DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8A1605DB6365606E7A77F21AC2953CF4 /* Pods-Math Keeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Math Keeper.debug.xcconfig"; sourceTree = "<group>"; };
+		8F0FA8BB1B23DAC3ED4890278C2CDD8A /* MTFontManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTFontManager.m; path = iosMath/render/MTFontManager.m; sourceTree = "<group>"; };
+		8FD330C1DAC1E715D4ABD41018E86E04 /* MathEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MathEditor-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C721F0D9AE9CFE543C3846262222382 /* NSColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSColor+HexString.h"; path = "iosMath/render/NSColor+HexString.h"; sourceTree = "<group>"; };
+		A374F6F7D8A9CAD6486CD6DA72D075C8 /* MTMathKeyboardRootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathKeyboardRootView.h; path = mathEditor/keyboard/MTMathKeyboardRootView.h; sourceTree = "<group>"; };
+		A72C27942C5830417EF6002717E2D62F /* MTMathList+Editing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MTMathList+Editing.m"; path = "mathEditor/internal/MTMathList+Editing.m"; sourceTree = "<group>"; };
+		A9584A1F2D6F127A85944AD33BEA278D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A99317B605DB741A789D7D532A1DD5F2 /* NSColor+HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSColor+HexString.m"; path = "iosMath/render/NSColor+HexString.m"; sourceTree = "<group>"; };
+		AA8D3A03CD24906B1C4F3783D0317DF6 /* MTKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTKeyboard.m; path = mathEditor/keyboard/MTKeyboard.m; sourceTree = "<group>"; };
+		AAB7016E35924802C6B8BC1263990F58 /* MTMathListIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathListIndex.h; path = iosMath/lib/MTMathListIndex.h; sourceTree = "<group>"; };
+		AE1FF4ECD742CBC0EA3D76C9D3E1B664 /* iosMath.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iosMath.xcconfig; sourceTree = "<group>"; };
+		AE4A17423E6E64C4B077B2D83F6060BE /* MTMathUILabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMathUILabel.m; path = iosMath/render/MTMathUILabel.m; sourceTree = "<group>"; };
+		AF7C41FB2DBBDBC17FAB5C13B7D9896F /* MTFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTFont.h; path = iosMath/render/MTFont.h; sourceTree = "<group>"; };
+		B12C3E90A6A18774BFFE7D177EDE13AF /* MTKeyboard.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MTKeyboard.xib; path = MathKeyboardResources/MTKeyboard.xib; sourceTree = "<group>"; };
+		B42BA91861ECF35531828613816EE3A7 /* MTMathListBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMathListBuilder.m; path = iosMath/lib/MTMathListBuilder.m; sourceTree = "<group>"; };
+		B6D63D905C58603D2F6CAED0F289A979 /* MTEditableMathLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTEditableMathLabel.m; path = mathEditor/editor/MTEditableMathLabel.m; sourceTree = "<group>"; };
+		B8D3A608B9C96BB7373F7ED6DFB8A71C /* MTUnicode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTUnicode.m; path = iosMath/lib/MTUnicode.m; sourceTree = "<group>"; };
+		B8F60FF0ED79ECBDD34050FD0D88CC30 /* MTTypesetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTTypesetter.h; path = iosMath/render/internal/MTTypesetter.h; sourceTree = "<group>"; };
+		BB7CE12CCF251A6DD15B35B88AEC000A /* MTMathAtomFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathAtomFactory.h; path = iosMath/lib/MTMathAtomFactory.h; sourceTree = "<group>"; };
+		C11B69E33CB4FC2CFEB4E7F57D4B005B /* MTMathList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathList.h; path = iosMath/lib/MTMathList.h; sourceTree = "<group>"; };
+		C521A2B90AE6DA9AFF048D7533E762D5 /* MTKeyboardTab2.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MTKeyboardTab2.xib; path = MathKeyboardResources/MTKeyboardTab2.xib; sourceTree = "<group>"; };
+		CE9672DD18A6BDB3528EBA033ABB5C15 /* iosMath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iosMath-dummy.m"; sourceTree = "<group>"; };
+		D4F9B73CE8E0E3A4CA4C1A1265C3AFA7 /* Pods-Math Keeper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Math Keeper-frameworks.sh"; sourceTree = "<group>"; };
+		D520F7490F066F42CDF38F6E6ADD7905 /* iosMath-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iosMath-prefix.pch"; sourceTree = "<group>"; };
+		D56A8F2455D1691C71B69EDEA1A38369 /* NewKeyboardAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = NewKeyboardAssets.xcassets; path = MathKeyboardResources/NewKeyboardAssets.xcassets; sourceTree = "<group>"; };
+		D5EDE265B2378650DABE98CB82F436A6 /* MTKeyboardTab4.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MTKeyboardTab4.xib; path = MathKeyboardResources/MTKeyboardTab4.xib; sourceTree = "<group>"; };
+		DC679126E314C8BB7F58ECB224AFFC10 /* MTMathKeyboardRootView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MTMathKeyboardRootView.xib; path = MathKeyboardResources/MTMathKeyboardRootView.xib; sourceTree = "<group>"; };
+		DCA0833F3020F7656C2F3AE771092E42 /* texgyretermes-math.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "texgyretermes-math.otf"; path = "fonts/texgyretermes-math.otf"; sourceTree = "<group>"; };
+		E18E1FDA65E4E7C3BF702873A24C8C61 /* xits-math.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "xits-math.plist"; path = "fonts/xits-math.plist"; sourceTree = "<group>"; };
+		E2B18796FC87D82F2B7622ACE3D8215B /* latinmodern-math.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "latinmodern-math.otf"; path = "fonts/latinmodern-math.otf"; sourceTree = "<group>"; };
+		E45589E2C8097297A8A27B6A8BA9469B /* libMathEditor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMathEditor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB31481DE8CA43B55E85525278E562DD /* Pods-Math Keeper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Math Keeper-resources.sh"; sourceTree = "<group>"; };
+		EE00DF246D400758EE7D21DAD8124675 /* texgyretermes-math.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "texgyretermes-math.plist"; path = "fonts/texgyretermes-math.plist"; sourceTree = "<group>"; };
+		EFA39F7B3C4F23E7AAA71732E8328E55 /* MTMathListIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMathListIndex.m; path = iosMath/lib/MTMathListIndex.m; sourceTree = "<group>"; };
+		F2B7D54015A9E866D2FD113CB3BC2CCF /* MTFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTFont.m; path = iosMath/render/MTFont.m; sourceTree = "<group>"; };
+		F3B5376E0E4E997163750C8374CB8BFF /* MTKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTKeyboard.h; path = mathEditor/keyboard/MTKeyboard.h; sourceTree = "<group>"; };
+		F910ECF2C8D57751A1179264F12212B2 /* MTConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTConfig.h; path = iosMath/render/MTConfig.h; sourceTree = "<group>"; };
+		F9D410E25AFB06421A777CC6774E3353 /* UIColor+HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexString.m"; path = "iosMath/render/UIColor+HexString.m"; sourceTree = "<group>"; };
+		FEF88F6D1539F8FC01BBDFFFE0890A7B /* mathFonts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathFonts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1225D92B1CEFB07D5CE3450DA63F7027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1184872C44F12B731B03D95B89B420 /* Foundation.framework in Frameworks */,
+				F2B103F21865D6EF57BB87E0E017CA6D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA54CB799DA55546E71AFF1E429DF93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE25BF48ACE8540CD527B8D020B66F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338667638FB944022CDBF38D670DD6F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F28F61643D09BAB34551CA8EFA04EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB19AD093A734F5D21A8415888F988AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398946997503FBB721891DCF546D4DA5 /* CoreGraphics.framework in Frameworks */,
+				1CD29BB3FB8BB6FD0B136F71EF6ECCE6 /* CoreText.framework in Frameworks */,
+				564ED725853770DA6162C9BB17FB80EB /* Foundation.framework in Frameworks */,
+				85BFCE86FDFF9A472407BC297C53A666 /* QuartzCore.framework in Frameworks */,
+				9DC39738778992E95544215C36B2595D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008531B243434F2586AF05F0B6AC4480 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B1F98B661FD52C8DFEA3A459B771E4F /* MathEditor.xcconfig */,
+				7B9C49E6BBB56C594DB6D643B51986E4 /* MathEditor-dummy.m */,
+				8FD330C1DAC1E715D4ABD41018E86E04 /* MathEditor-prefix.pch */,
+				4BE315E41514DDC3BC54B6AE240A6228 /* ResourceBundle-MTKeyboardResources-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MathEditor";
+			sourceTree = "<group>";
+		};
+		011407C376714710805C43C40F68DEFD /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				D134D89584C8CCE5AEA383CF8DFD72CB /* Frameworks */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2357B0F38644467A148935873DB46F1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		272C1EF841C0209C539A9586C8C5A8D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2B18796FC87D82F2B7622ACE3D8215B /* latinmodern-math.otf */,
+				5965E4A2526EAF739B4462691B3C628E /* latinmodern-math.plist */,
+				DCA0833F3020F7656C2F3AE771092E42 /* texgyretermes-math.otf */,
+				EE00DF246D400758EE7D21DAD8124675 /* texgyretermes-math.plist */,
+				79F4225EE83E8A5E2855B262DED69AD3 /* xits-math.otf */,
+				E18E1FDA65E4E7C3BF702873A24C8C61 /* xits-math.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		305EAD3B98E81C7396F2CD39C6875EA6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0664AE3C0D9B22526825D8BF60788BD /* Pods-Math Keeper */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		40D1F3A55A602A65DF5CF03CF6820674 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A997DEBC11B526465F67AA44FFCD670 /* KeyboardAssests.xcassets */,
+				156D92C4EB484CB1962881D0F208B312 /* lmroman10-bolditalic.otf */,
+				B12C3E90A6A18774BFFE7D177EDE13AF /* MTKeyboard.xib */,
+				C521A2B90AE6DA9AFF048D7533E762D5 /* MTKeyboardTab2.xib */,
+				08C6A9061716C8A6D41D7413797E192B /* MTKeyboardTab3.xib */,
+				D5EDE265B2378650DABE98CB82F436A6 /* MTKeyboardTab4.xib */,
+				DC679126E314C8BB7F58ECB224AFFC10 /* MTMathKeyboardRootView.xib */,
+				D56A8F2455D1691C71B69EDEA1A38369 /* NewKeyboardAssets.xcassets */,
+				7BE00B980CB2E2FEFCDEA93F747D3C30 /* WhiteBGKeyboardTab.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		769B179039D740BAB685EA2141B94950 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE1FF4ECD742CBC0EA3D76C9D3E1B664 /* iosMath.xcconfig */,
+				CE9672DD18A6BDB3528EBA033ABB5C15 /* iosMath-dummy.m */,
+				D520F7490F066F42CDF38F6E6ADD7905 /* iosMath-prefix.pch */,
+				6B000C46932AC7403B3D2FB00CED77FC /* ResourceBundle-mathFonts-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iosMath";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				D5C37AD38AD6CB1EABDE941D52DC376E /* Pods */,
+				A03D02640731863DCCB052902227C149 /* Products */,
+				305EAD3B98E81C7396F2CD39C6875EA6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A03D02640731863DCCB052902227C149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C8AAF9E549593B5FC9E0198D8E383BF /* libiosMath.a */,
+				E45589E2C8097297A8A27B6A8BA9469B /* libMathEditor.a */,
+				2A66CF23FF1E12D2F5D592A5BFE0739B /* libPods-Math Keeper.a */,
+				FEF88F6D1539F8FC01BBDFFFE0890A7B /* mathFonts.bundle */,
+				3F6467221FF27EC986A0F35E84F3E9FC /* MTKeyboardResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0664AE3C0D9B22526825D8BF60788BD /* Pods-Math Keeper */ = {
+			isa = PBXGroup;
+			children = (
+				5B49A6EE5700C0E76BEDCC86535A122D /* Pods-Math Keeper-acknowledgements.markdown */,
+				3AC8ED5D6751C4F12CCD553F321AC48A /* Pods-Math Keeper-acknowledgements.plist */,
+				0A8F7E53A2A826A57C09767CEA3816A5 /* Pods-Math Keeper-dummy.m */,
+				D4F9B73CE8E0E3A4CA4C1A1265C3AFA7 /* Pods-Math Keeper-frameworks.sh */,
+				EB31481DE8CA43B55E85525278E562DD /* Pods-Math Keeper-resources.sh */,
+				8A1605DB6365606E7A77F21AC2953CF4 /* Pods-Math Keeper.debug.xcconfig */,
+				2AD671C27F5116485D88D9BBF61336D5 /* Pods-Math Keeper.release.xcconfig */,
+			);
+			name = "Pods-Math Keeper";
+			path = "Target Support Files/Pods-Math Keeper";
+			sourceTree = "<group>";
+		};
+		ADEDD59927D81E8670F242CE98154B3E /* MathEditor */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D41A1FCA7458E2037E41163964FDF /* MTCaretView.h */,
+				5ADD32E2063C57FE6FADE8CDE017E6A5 /* MTCaretView.m */,
+				2BDE47CFA28F203BE4E1C8D2635E2A5F /* MTDisplay+Editing.h */,
+				48FAC2AAC03818E6D35C8B133F6ABB20 /* MTDisplay+Editing.m */,
+				568AE714F350B8DD224DD4DC33C10476 /* MTEditableMathLabel.h */,
+				B6D63D905C58603D2F6CAED0F289A979 /* MTEditableMathLabel.m */,
+				F3B5376E0E4E997163750C8374CB8BFF /* MTKeyboard.h */,
+				AA8D3A03CD24906B1C4F3783D0317DF6 /* MTKeyboard.m */,
+				A374F6F7D8A9CAD6486CD6DA72D075C8 /* MTMathKeyboardRootView.h */,
+				7F4F1AD09E005A18046AE1AE63C51F35 /* MTMathKeyboardRootView.m */,
+				3A46132DEBAFE055AF901B7DE00ED45B /* MTMathList+Editing.h */,
+				A72C27942C5830417EF6002717E2D62F /* MTMathList+Editing.m */,
+				40D1F3A55A602A65DF5CF03CF6820674 /* Resources */,
+				008531B243434F2586AF05F0B6AC4480 /* Support Files */,
+			);
+			path = MathEditor;
+			sourceTree = "<group>";
+		};
+		BAB4F97EEC0519745AB16DAC20F470B8 /* iosMath */ = {
+			isa = PBXGroup;
+			children = (
+				29964E440E19C9F486AD375BB04B8719 /* IosMath.h */,
+				F910ECF2C8D57751A1179264F12212B2 /* MTConfig.h */,
+				AF7C41FB2DBBDBC17FAB5C13B7D9896F /* MTFont.h */,
+				F2B7D54015A9E866D2FD113CB3BC2CCF /* MTFont.m */,
+				62EB64108E21A81574691A6FC8E96005 /* MTFont+Internal.h */,
+				2A5420B33796EECF3655507E1E09EB3A /* MTFontManager.h */,
+				8F0FA8BB1B23DAC3ED4890278C2CDD8A /* MTFontManager.m */,
+				3EB18133528EF21120615B579F0CA4CE /* MTFontMathTable.h */,
+				0D246AE238103CD5293BBD73793BDB4B /* MTFontMathTable.m */,
+				43D5DA9F1481E4DCA74C3478E49FE0EB /* MTLabel.h */,
+				0122A8466EC0B79474194DC61FCB0AF5 /* MTLabel.m */,
+				BB7CE12CCF251A6DD15B35B88AEC000A /* MTMathAtomFactory.h */,
+				4BCA5FD3B3487243088D92F1C6D0AF70 /* MTMathAtomFactory.m */,
+				C11B69E33CB4FC2CFEB4E7F57D4B005B /* MTMathList.h */,
+				7896FBEDBC480B7A3E4DBDEDDE8393B3 /* MTMathList.m */,
+				0F70BB08417DE99F857533D9DC5B7113 /* MTMathListBuilder.h */,
+				B42BA91861ECF35531828613816EE3A7 /* MTMathListBuilder.m */,
+				226225390781AED31D7615FF7716A10F /* MTMathListDisplay.h */,
+				51B41E9A81843EBD74AE5527FB8FBC1C /* MTMathListDisplay.m */,
+				0286C93471C56B84C200E162AB22F0AB /* MTMathListDisplayInternal.h */,
+				AAB7016E35924802C6B8BC1263990F58 /* MTMathListIndex.h */,
+				EFA39F7B3C4F23E7AAA71732E8328E55 /* MTMathListIndex.m */,
+				73EAB2E4EFCEDC72B409CC2E8724FD90 /* MTMathUILabel.h */,
+				AE4A17423E6E64C4B077B2D83F6060BE /* MTMathUILabel.m */,
+				B8F60FF0ED79ECBDD34050FD0D88CC30 /* MTTypesetter.h */,
+				82E758C5FDA9D90E165E0DAC5B307F76 /* MTTypesetter.m */,
+				14ED7F314272363FDEDAA8B33FBAFA23 /* MTUnicode.h */,
+				B8D3A608B9C96BB7373F7ED6DFB8A71C /* MTUnicode.m */,
+				2B280C94E62D6F899DCE8171EF06E80E /* NSBezierPath+addLineToPoint.h */,
+				2F8229ABECF46B97C44276A34E386003 /* NSBezierPath+addLineToPoint.m */,
+				9C721F0D9AE9CFE543C3846262222382 /* NSColor+HexString.h */,
+				A99317B605DB741A789D7D532A1DD5F2 /* NSColor+HexString.m */,
+				493C50AD94BB6C783A82153DE06D7708 /* NSView+backgroundColor.h */,
+				58AD8BDAE55B72C7320CB02660780141 /* NSView+backgroundColor.m */,
+				3009AEF4ABDF3FDF4C18B2E7FC6C5A91 /* UIColor+HexString.h */,
+				F9D410E25AFB06421A777CC6774E3353 /* UIColor+HexString.m */,
+				272C1EF841C0209C539A9586C8C5A8D0 /* Resources */,
+				769B179039D740BAB685EA2141B94950 /* Support Files */,
+			);
+			path = iosMath;
+			sourceTree = "<group>";
+		};
+		D134D89584C8CCE5AEA383CF8DFD72CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BF9885D4846FE2949701B9BE312F020 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2357B0F38644467A148935873DB46F1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				29AA6E4C10206C3EE9ADFA1D694F1143 /* CoreGraphics.framework */,
+				755FAE73277FCB766461DDF0A4841EC5 /* CoreText.framework */,
+				30A48DB1C8052F1B842C0010D6FE3264 /* Foundation.framework */,
+				A9584A1F2D6F127A85944AD33BEA278D /* QuartzCore.framework */,
+				85FDCAA1EADCFD367E1698CDE25DE0DF /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5C37AD38AD6CB1EABDE941D52DC376E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				011407C376714710805C43C40F68DEFD /* Google-Mobile-Ads-SDK */,
+				BAB4F97EEC0519745AB16DAC20F470B8 /* iosMath */,
+				ADEDD59927D81E8670F242CE98154B3E /* MathEditor */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58CA20684F634A748A36EF299892904A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE715630C99F8522C2BCBA9A53CF450B /* MTCaretView.h in Headers */,
+				E8468A840B15EA1AB438448E3D202DAC /* MTDisplay+Editing.h in Headers */,
+				D0CADF57155E6C4E880DB975987B2E9B /* MTEditableMathLabel.h in Headers */,
+				8EC3C3B3126F57D0D1AECAAA9BE5D255 /* MTKeyboard.h in Headers */,
+				C6620EE877840123B8CF84D7A82D4FC0 /* MTMathKeyboardRootView.h in Headers */,
+				E0CBA1109D6BB921103A5C0F95419214 /* MTMathList+Editing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E82A92F5DFA7B965E55572AA41C3017 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C424452CFC97FF49DFFBFE4856F2AE06 /* IosMath.h in Headers */,
+				76209464A8E103CD7D8F9AB036CC6AEF /* MTConfig.h in Headers */,
+				B925301D3C278A08CD9713988663AEB8 /* MTFont+Internal.h in Headers */,
+				97277D9A3E1E5FF9FF24947792018182 /* MTFont.h in Headers */,
+				D3E4AD401C2278FEF60D57EA156E6086 /* MTFontManager.h in Headers */,
+				4F51DC8447E95BA1A2BA914BC2BD76BF /* MTFontMathTable.h in Headers */,
+				F27907919E229EEEE11458CC9123B614 /* MTLabel.h in Headers */,
+				AE1469E2D51AC6B6BBBC2E3345BDECC2 /* MTMathAtomFactory.h in Headers */,
+				3691A35012BE50BA15EE0D5C17BDA42A /* MTMathList.h in Headers */,
+				138AADD170414B2E0EDBC23A5416609B /* MTMathListBuilder.h in Headers */,
+				F90B782EB576FF2A7B8F4B6C25AA0C8F /* MTMathListDisplay.h in Headers */,
+				F813A8EDE2B7D81995EA7AD8813830C6 /* MTMathListDisplayInternal.h in Headers */,
+				F739162424F4F7C228E6A1F0DED936EC /* MTMathListIndex.h in Headers */,
+				85AF520E5833823045EC51A2F5EA4F69 /* MTMathUILabel.h in Headers */,
+				B671947CD605743E6061F6D53F7E41AA /* MTTypesetter.h in Headers */,
+				443456EF4FF6E052EB576E833209805D /* MTUnicode.h in Headers */,
+				944A6D2D0E7AD24793DBE2BC0A4B7554 /* NSBezierPath+addLineToPoint.h in Headers */,
+				282EEB1AF28B26E269CC2C2D9B7A42C2 /* NSColor+HexString.h in Headers */,
+				3EA29B5D5AE62B30286E58260923B661 /* NSView+backgroundColor.h in Headers */,
+				5939D6E9AF67065B2766B27ED0306DA8 /* UIColor+HexString.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		106FC25179840A703AC26084904B7B03 /* iosMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551775BCBA9EEF769162E8D2FBB09B41 /* Build configuration list for PBXNativeTarget "iosMath" */;
+			buildPhases = (
+				C4501D7B85F8B085E42324C68B2D813D /* Sources */,
+				BB19AD093A734F5D21A8415888F988AC /* Frameworks */,
+				7E82A92F5DFA7B965E55572AA41C3017 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9633048735E9E32BDC52D1F0E5E2A55 /* PBXTargetDependency */,
+			);
+			name = iosMath;
+			productName = iosMath;
+			productReference = 1C8AAF9E549593B5FC9E0198D8E383BF /* libiosMath.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		515694D13D6BF34300203C6A083A1A42 /* iosMath-mathFonts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1D10B38571EEEF55171E39EA62DB2C /* Build configuration list for PBXNativeTarget "iosMath-mathFonts" */;
+			buildPhases = (
+				587096125544670806EFC755DCE8950B /* Sources */,
+				6F28F61643D09BAB34551CA8EFA04EA5 /* Frameworks */,
+				49253D5558FF7F675FCDFF0ABED93062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iosMath-mathFonts";
+			productName = "iosMath-mathFonts";
+			productReference = FEF88F6D1539F8FC01BBDFFFE0890A7B /* mathFonts.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5806A57708C47CDEAAC55513109AB005 /* MathEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68690507B7615D64C94849AB2F3DFE44 /* Build configuration list for PBXNativeTarget "MathEditor" */;
+			buildPhases = (
+				0361D19F431DAA6962F7153DF9B0D692 /* Sources */,
+				1225D92B1CEFB07D5CE3450DA63F7027 /* Frameworks */,
+				58CA20684F634A748A36EF299892904A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD70F900C14FC0DB3382D507EBD4A694 /* PBXTargetDependency */,
+				F5C5E8E08CBB747A10BAB78BD1E672CD /* PBXTargetDependency */,
+			);
+			name = MathEditor;
+			productName = MathEditor;
+			productReference = E45589E2C8097297A8A27B6A8BA9469B /* libMathEditor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		765283D43FF55D531F9957C861E6181D /* MathEditor-MTKeyboardResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883AB89E9DEB046BBC9DF80257955668 /* Build configuration list for PBXNativeTarget "MathEditor-MTKeyboardResources" */;
+			buildPhases = (
+				8726F5349EE0D4642BBE5AB38AE33722 /* Sources */,
+				338667638FB944022CDBF38D670DD6F0 /* Frameworks */,
+				B6BE5585248CC238FA22473C62924CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MathEditor-MTKeyboardResources";
+			productName = "MathEditor-MTKeyboardResources";
+			productReference = 3F6467221FF27EC986A0F35E84F3E9FC /* MTKeyboardResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D5C2C47BCD3BBA7C2FDF06E3FEFB75BA /* Pods-Math Keeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5819B6A3FFAE031A4350EC5A2C1154D /* Build configuration list for PBXNativeTarget "Pods-Math Keeper" */;
+			buildPhases = (
+				E7F930EA9BBE1FAF9678C7556094159A /* Sources */,
+				2AA54CB799DA55546E71AFF1E429DF93 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CD222ED2E4D89718FB347AE831001EF /* PBXTargetDependency */,
+				4AB44111231FFAA337CA26D6E31C4DF2 /* PBXTargetDependency */,
+			);
+			name = "Pods-Math Keeper";
+			productName = "Pods-Math Keeper";
+			productReference = 2A66CF23FF1E12D2F5D592A5BFE0739B /* libPods-Math Keeper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A03D02640731863DCCB052902227C149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				106FC25179840A703AC26084904B7B03 /* iosMath */,
+				515694D13D6BF34300203C6A083A1A42 /* iosMath-mathFonts */,
+				5806A57708C47CDEAAC55513109AB005 /* MathEditor */,
+				765283D43FF55D531F9957C861E6181D /* MathEditor-MTKeyboardResources */,
+				D5C2C47BCD3BBA7C2FDF06E3FEFB75BA /* Pods-Math Keeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49253D5558FF7F675FCDFF0ABED93062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C0863E0A0AD9FB73F548BD98C6D508 /* latinmodern-math.otf in Resources */,
+				DC6800380AFBF3DC27AA456BCD3185D4 /* latinmodern-math.plist in Resources */,
+				B5780F11187DDC5AB95AEE6769FA5920 /* texgyretermes-math.otf in Resources */,
+				8933FA17783C0A60DFE4B6ABEBD3640B /* texgyretermes-math.plist in Resources */,
+				E791442F9A13A0BB4CEC791BE00CE605 /* xits-math.otf in Resources */,
+				42392823D3A8F54F27C12B8DFAB333FF /* xits-math.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BE5585248CC238FA22473C62924CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CF097806DB665CF4796D4FDA9F69AD /* KeyboardAssests.xcassets in Resources */,
+				189D29AA525AA039D21FB584C537864C /* lmroman10-bolditalic.otf in Resources */,
+				6F5F09C7B01EE7BFCB2CD8B3C3491247 /* MTKeyboard.xib in Resources */,
+				A1CBA2AD9D481974457DF1E087367AA2 /* MTKeyboardTab2.xib in Resources */,
+				90A1E6D3B6261FD3E9EA2AA10F09EE26 /* MTKeyboardTab3.xib in Resources */,
+				1F14E85E48B7D839A6E6C7C385396279 /* MTKeyboardTab4.xib in Resources */,
+				2F1AA67CF0D85DA31856BCB45898310C /* MTMathKeyboardRootView.xib in Resources */,
+				E5FA0F994C1F342B3F346A6787D248D6 /* NewKeyboardAssets.xcassets in Resources */,
+				DE7000EA8ED4A49C11EB3B13B2C80B2F /* WhiteBGKeyboardTab.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0361D19F431DAA6962F7153DF9B0D692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1F787155355A29AC7E5576EBCC2434 /* MathEditor-dummy.m in Sources */,
+				F2C55F3EE6F4DBDBAD0BC9B63206A69D /* MTCaretView.m in Sources */,
+				75A1388F2700ACA4D3A67DBE6EA3ADE2 /* MTDisplay+Editing.m in Sources */,
+				039E6D893A5FA1EC3C301F3F4AF3014C /* MTEditableMathLabel.m in Sources */,
+				04596CEEF218EB0ABA988EFB42990934 /* MTKeyboard.m in Sources */,
+				C27408F7EE7CEBB88A323BA9A90F2ECF /* MTMathKeyboardRootView.m in Sources */,
+				7DE58002884DE3A5F4EF88C940E11CAD /* MTMathList+Editing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587096125544670806EFC755DCE8950B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8726F5349EE0D4642BBE5AB38AE33722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4501D7B85F8B085E42324C68B2D813D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6A410EB27370B2458FED3E071EF671 /* iosMath-dummy.m in Sources */,
+				DE92F28BA83DD4838B209FF90FC41859 /* MTFont.m in Sources */,
+				D374D6DDBB9584A7168608F96F99612B /* MTFontManager.m in Sources */,
+				B01ED3F24569F034E4BDD71E76C5CBE2 /* MTFontMathTable.m in Sources */,
+				054869A371752A2E17D9355FA8391598 /* MTLabel.m in Sources */,
+				4C6B64CFC34FB7EB43CE8E4084206B5C /* MTMathAtomFactory.m in Sources */,
+				64CB20A625A56559E84C4853478BD503 /* MTMathList.m in Sources */,
+				B962C7D6F8BE9C791D3B2DA94B0650AF /* MTMathListBuilder.m in Sources */,
+				CB4D39522856AAC4CDD30D7492DDC15E /* MTMathListDisplay.m in Sources */,
+				30CC65767C4B62A70BF7B1CCEA416099 /* MTMathListIndex.m in Sources */,
+				ADAF8960314E5201FE960D3D8FCD5809 /* MTMathUILabel.m in Sources */,
+				271B1EB4B79125A11F8857C68C23F6AC /* MTTypesetter.m in Sources */,
+				D4EB3EF6C8A21234E40AB77C108483B5 /* MTUnicode.m in Sources */,
+				A077A1C7662A66FC2E228BAECE5FCADE /* NSBezierPath+addLineToPoint.m in Sources */,
+				F8B560E9EAB3AC6CE55FD755965951F9 /* NSColor+HexString.m in Sources */,
+				2B9BCF78BB906E151FAC3077DA70BE81 /* NSView+backgroundColor.m in Sources */,
+				F505FF26AC5054A1E0C880DF0E739137 /* UIColor+HexString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F930EA9BBE1FAF9678C7556094159A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD19D8BE138BC032B49500B758BC1C0D /* Pods-Math Keeper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CD222ED2E4D89718FB347AE831001EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MathEditor;
+			target = 5806A57708C47CDEAAC55513109AB005 /* MathEditor */;
+			targetProxy = F1074D43474CA729EDF17879E78A3758 /* PBXContainerItemProxy */;
+		};
+		4AB44111231FFAA337CA26D6E31C4DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iosMath;
+			target = 106FC25179840A703AC26084904B7B03 /* iosMath */;
+			targetProxy = 17F1D691796271BFFCFA54E43BF03C12 /* PBXContainerItemProxy */;
+		};
+		E9633048735E9E32BDC52D1F0E5E2A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iosMath-mathFonts";
+			target = 515694D13D6BF34300203C6A083A1A42 /* iosMath-mathFonts */;
+			targetProxy = B87D199995F70FC8863AA591E2DAC243 /* PBXContainerItemProxy */;
+		};
+		F5C5E8E08CBB747A10BAB78BD1E672CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iosMath;
+			target = 106FC25179840A703AC26084904B7B03 /* iosMath */;
+			targetProxy = 6AAB9D19A4EA5FFBD947BFC5A676E9F7 /* PBXContainerItemProxy */;
+		};
+		FD70F900C14FC0DB3382D507EBD4A694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MathEditor-MTKeyboardResources";
+			target = 765283D43FF55D531F9957C861E6181D /* MathEditor-MTKeyboardResources */;
+			targetProxy = 9443D892F57571DB585F3ABFD6D3DA79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		001CEDABF1C1870159BF65E116D54C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1F98B661FD52C8DFEA3A459B771E4F /* MathEditor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MathEditor/MathEditor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0B70EC627514EBCC59861A6432C22ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1FF4ECD742CBC0EA3D76C9D3E1B664 /* iosMath.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iosMath/iosMath-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1E44266977BBA3B4B5C4755730D6974E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1F98B661FD52C8DFEA3A459B771E4F /* MathEditor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MathEditor/MathEditor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		310CA218E0D219FDDAAD6896B44ECC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1FF4ECD742CBC0EA3D76C9D3E1B664 /* iosMath.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/iosMath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/iosMath/ResourceBundle-mathFonts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = mathFonts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81A4A552184788A37923D7EE79F4ACD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1FF4ECD742CBC0EA3D76C9D3E1B664 /* iosMath.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iosMath/iosMath-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		866D61EA64A5F4DD83DB865974DFFA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD671C27F5116485D88D9BBF61336D5 /* Pods-Math Keeper.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B4B35DAC5345A43D8DB0905E806E5587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1605DB6365606E7A77F21AC2953CF4 /* Pods-Math Keeper.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B5FC25CA6C9704F96F01E2872176F904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1F98B661FD52C8DFEA3A459B771E4F /* MathEditor.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MathEditor";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MathEditor/ResourceBundle-MTKeyboardResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MTKeyboardResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BBCDB5B1382CDB6FCE8BADBBE4773F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1FF4ECD742CBC0EA3D76C9D3E1B664 /* iosMath.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/iosMath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/iosMath/ResourceBundle-mathFonts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = mathFonts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5688DD9E5355565B35FADA10C600A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1F98B661FD52C8DFEA3A459B771E4F /* MathEditor.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MathEditor";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MathEditor/ResourceBundle-MTKeyboardResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MTKeyboardResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551775BCBA9EEF769162E8D2FBB09B41 /* Build configuration list for PBXNativeTarget "iosMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B70EC627514EBCC59861A6432C22ACF /* Debug */,
+				81A4A552184788A37923D7EE79F4ACD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68690507B7615D64C94849AB2F3DFE44 /* Build configuration list for PBXNativeTarget "MathEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E44266977BBA3B4B5C4755730D6974E /* Debug */,
+				001CEDABF1C1870159BF65E116D54C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883AB89E9DEB046BBC9DF80257955668 /* Build configuration list for PBXNativeTarget "MathEditor-MTKeyboardResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5688DD9E5355565B35FADA10C600A67 /* Debug */,
+				B5FC25CA6C9704F96F01E2872176F904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1D10B38571EEEF55171E39EA62DB2C /* Build configuration list for PBXNativeTarget "iosMath-mathFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCDB5B1382CDB6FCE8BADBBE4773F3E /* Debug */,
+				310CA218E0D219FDDAAD6896B44ECC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5819B6A3FFAE031A4350EC5A2C1154D /* Build configuration list for PBXNativeTarget "Pods-Math Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B35DAC5345A43D8DB0905E806E5587 /* Debug */,
+				866D61EA64A5F4DD83DB865974DFFA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

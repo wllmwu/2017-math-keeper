@@ -1,0 +1,1569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Categories</key>
+	<array>
+		<string>Favorites</string>
+		<string>Search Formulas</string>
+		<string>Algebra</string>
+		<string>Geometry</string>
+		<string>Analytic Geometry</string>
+		<string>Trigonometry</string>
+		<string>Probability and Statistics</string>
+	</array>
+	<key>Subcategories</key>
+	<array>
+		<array/>
+		<array/>
+		<array>
+			<string>Products and Factors</string>
+			<string>Exponent and Root Properties</string>
+			<string>Logarithm Properties</string>
+			<string>Solutions to Quadratic Equations</string>
+			<string>Arithmetic Progressions (Sequences)</string>
+			<string>Geometric Progressions (Sequences)</string>
+		</array>
+		<array>
+			<string>Triangles</string>
+			<string>Right Triangles</string>
+			<string>Squares</string>
+			<string>Rectangles</string>
+			<string>Parallelograms</string>
+			<string>Trapezoids</string>
+			<string>Hexagons</string>
+			<string>Regular Polygons with N Sides</string>
+			<string>Circles</string>
+			<string>Pyramids</string>
+			<string>Cones</string>
+			<string>Frustums</string>
+			<string>Rectangular Prisms</string>
+			<string>Cylinders</string>
+			<string>Spheres</string>
+			<string>Tori (Toruses)</string>
+		</array>
+		<array>
+			<string>Linear Functions</string>
+			<string>Quadratic Functions</string>
+			<string>Cubic Functions</string>
+			<string>Square Root Functions</string>
+			<string>Exponential Functions</string>
+			<string>Logarithmic Functions</string>
+			<string>Rational Functions</string>
+			<string>Absolute Value Functions</string>
+			<string>Equations of Circles (not Functions)</string>
+			<string>Sine Functions</string>
+			<string>Cosine Functions</string>
+			<string>Tangent Functions</string>
+		</array>
+		<array>
+			<string>Right Triangle Trigonometric Ratios</string>
+			<string>Trignometric Relationships</string>
+		</array>
+		<array>
+			<string>Sets</string>
+			<string>Probability</string>
+			<string>Statistics</string>
+		</array>
+	</array>
+	<key>CategoryFormulas</key>
+	<array>
+		<array/>
+		<array/>
+		<array/>
+		<array/>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Distance Formula</string>
+				<key>equation</key>
+				<string>d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}</string>
+				<key>favorite</key>
+				<false/>
+				<key>note</key>
+				<string>Derived from the Pythagorean Theorem, this formula gives the distance between two points (x1,y1) and (x2,y2). It can extend beyond two dimensions by adding (z2-z1)^2 within the square root for three dimensions, (w2-w1)^2 for four dimensions, etc.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>General Form of a Function</string>
+				<key>equation</key>
+				<string>a\cdot f(x-h)+k</string>
+				<key>favorite</key>
+				<false/>
+				<key>note</key>
+				<string>A function&apos;s general form includes its vertical &quot;stretch&quot; factor a and its translation ⟨h,k⟩, applied to the parent function f(x).</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Degrees to Radians</string>
+				<key>equation</key>
+				<string>\text{radians}=\text{degrees}\times\frac{\pi}{180}</string>
+				<key>favorite</key>
+				<false/>
+				<key>note</key>
+				<string>Quick conversions: 15°=π/12, 30°=π/6, 45º=π/4, 60°=π/3, 90°=π/2, 180°=π, 270°=3π/2, 360°=2π</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Radians to Degrees</string>
+				<key>equation</key>
+				<string>\text{degrees}=\text{radians}\times\frac{180}{\pi}</string>
+				<key>favorite</key>
+				<false/>
+				<key>note</key>
+				<string>Quick conversions: 15°=π/12, 30°=π/6, 45º=π/4, 60°=π/3, 90°=π/2, 180°=π, 270°=3π/2, 360°=2π</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Permutation</string>
+				<key>equation</key>
+				<string>_nP_r=\frac{n!}{(n-r)!}=n(n-1)(n-2)\cdots (n-r+1)</string>
+				<key>favorite</key>
+				<false/>
+				<key>note</key>
+				<string>This formula gives the number of different ways that one can organize r items from a set of n total, if the order matters (that means ABC is not the same as CBA).</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Combination</string>
+				<key>equation</key>
+				<string>_nC_r=\frac{n!}{(n-r)!r!}=\frac{n(n-1)(n-2)\cdots (n-r+1)}{r!}</string>
+				<key>favorite</key>
+				<false/>
+				<key>note</key>
+				<string>This formula gives the number of different ways that one can organize r items from a set of n total, if the order does not matter (that means ABC is the same as CBA).</string>
+			</dict>
+		</array>
+	</array>
+	<key>SubcategoryFormulas</key>
+	<array>
+		<array/>
+		<array/>
+		<array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Square of a Binomial</string>
+					<key>equation</key>
+					<string>(a\pm b)^2=a^2\pm 2ab+b^2</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Cube of a Binomial</string>
+					<key>equation</key>
+					<string>(a\pm b)^3=a^3\pm 3a^2b+3ab^2\pm b^3</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Binomial Theorem</string>
+					<key>equation</key>
+					<string>(a+b)^n=\sum_{r=0}^{n}(_nC_r)a^{n-r}b^r</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>For example, consider n=4. (a+b)^4 = (1 · a^4 · b^0) + (4 · a^3 · b^1) + (6 · a^2 · b^2) + (4 · a^1 · b^3) + (1 · a^0 · b^4). The power of a decreases across the expression (from n to 0), while the power of b increases (from 0 to n), and the coefficients are the digits of 11^n or the numbers of the nth row of Pascal&apos;s Triangle.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Sum of Squares</string>
+					<key>equation</key>
+					<string>a^2+b^2=(a-b)^2+2ab</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Difference of Squares</string>
+					<key>equation</key>
+					<string>a^2-b^2=(a-b)(a+b)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Sum of Cubes</string>
+					<key>equation</key>
+					<string>a^3+b^3=(a+b)(a^2-ab+b^2)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Difference of Cubes</string>
+					<key>equation</key>
+					<string>a^3-b^3=(a-b)(a^2+ab+b^2)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Sum of Odd N Power</string>
+					<key>equation</key>
+					<string>a^n+b^n=(a+b)(a^{n-1}-a^{n-2}b+a^{n-3}b^2-\cdots -ab^{n-2}+b^{n-1})</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This is true if n is odd.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Sum of Even N Power</string>
+					<key>equation</key>
+					<string>a^n+b^n=(a+b)(a^{n-1}-a^{n-2}b+a^{n-3}b^2-\cdots +ab^{n-2}-b^{n-1})</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This is true if n is even.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Difference of Even N Power</string>
+					<key>equation</key>
+					<string>a^n-b^n=(a-b)(a^{n-1}+a^{n-2}b+a^{n-3}b^2+\cdots +ab^{n-2}+b^{n-1})</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This is true if n is even.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Product of Powers</string>
+					<key>equation</key>
+					<string>a^ma^n=a^{m+n}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Quotient of Powers</string>
+					<key>equation</key>
+					<string>\frac{a^m}{a^n}=a^{m-n}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Power of a Power</string>
+					<key>equation</key>
+					<string>(a^m)^n=a^{mn}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Power of a Product</string>
+					<key>equation</key>
+					<string>(ab)^m=a^mb^m</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Power of a Quotient</string>
+					<key>equation</key>
+					<string>(\frac{a}{b})^m=\frac{a^m}{b^m}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Negative Exponent</string>
+					<key>equation</key>
+					<string>a^{-m}=\frac{1}{a^m}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Fractional Exponent</string>
+					<key>equation</key>
+					<string>a^{\frac{m}{n}}=\sqrt[n]{a^m}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Product of Roots</string>
+					<key>equation</key>
+					<string>\sqrt[n]{a}\sqrt[n]{b}=\sqrt[n]{ab}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Quotient of Roots</string>
+					<key>equation</key>
+					<string>\frac{\sqrt[n]{a}}{\sqrt[n]{b}}=\sqrt[n]{\frac{a}{b}}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Logarithm of a Product</string>
+					<key>equation</key>
+					<string>\log_axy=\log_ax+log_ay</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Logarithm of a Quotient</string>
+					<key>equation</key>
+					<string>\log_a(\frac{x}{y})=\log_ax-log_ay</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Logarithm of a Power</string>
+					<key>equation</key>
+					<string>\log_ax^n=n\cdot \log_ax</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Change of Base Rule</string>
+					<key>equation</key>
+					<string>\log_ax=\frac{\log_bx}{\log_ba}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Base 10 Logarithm</string>
+					<key>equation</key>
+					<string>\log x=\log_{10}x</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>Generally, if the base of a logarithm is not given, one should assume it is base 10.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Discriminant</string>
+					<key>equation</key>
+					<string>b^2-4ac</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>One can use the discriminant of a quadratic equation to determine how many real roots it has: if the discriminant is greater than 0, there are two real roots; equal to 0, one real root (which is 0); less than 0, no real roots.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Quadratic Formula</string>
+					<key>equation</key>
+					<string>x=\frac{-b\pm \sqrt{b^2-4ac}}{2a}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The quadratic formula is useful for factoring quadratic equations with very large or irrational roots, but other, faster methods are available for easy equations. The discriminant is located within the square root.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>If b = 0</string>
+					<key>equation</key>
+					<string>ax^2+c=0\rightarrow x=\pm \sqrt{-\frac{c}{a}}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>If c = 0</string>
+					<key>equation</key>
+					<string>ax^2+bx=0\rightarrow x=0,-\frac{b}{a}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Zero Product Property</string>
+					<key>equation</key>
+					<string>(x-m)(x-n)=0\rightarrow x=m,n</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>Having factored a quadratic equation, this property gives the solutions, roots, zeros, and/or x-intercepts of the equation (they are all essentially the same thing). This also applies to equations with any number of factors.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Formula</string>
+					<key>equation</key>
+					<string>a_n=a_1+d(n-1)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The formula, or generator, for a sequence gives its nth term. a1 is the first term of an arithmetic sequence (n=1), and d is the common difference between each term.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Sum of the First N Terms (Series)</string>
+					<key>equation</key>
+					<string>S_n=(\frac{n}{2})(a_1+a_n)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>a1 is the first term of the series. The formula for an arithmetic series is similar to the formula for the area of a trapezoid. The reason for this is related to calculus.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Formula</string>
+					<key>equation</key>
+					<string>a_n=a_1(r)^{n-1}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The formula, or generator, for a sequence gives its nth term. a1 is the first term of a geometric sequence (n=1), and r is the common ratio between each term.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Sum of the First N Terms (Series)</string>
+					<key>equation</key>
+					<string>S_n=\frac{a_1(1-r^n)}{1-r}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>a1 is the first term of the series, and r is the common ratio.</string>
+				</dict>
+			</array>
+		</array>
+		<array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Area</string>
+					<key>equation</key>
+					<string>A=\frac{1}{2}bh</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>b is the base of the triangle, and h is its height.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Perimeter</string>
+					<key>equation</key>
+					<string>P=a+b+c</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>a, b, and c are the sides of the triangle.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Triangle Sum Theorem</string>
+					<key>equation</key>
+					<string>\text{m}\angle A+\text{m}\angle B+\text{m}\angle C=180\degree</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Exterior Angles Theorem</string>
+					<key>equation</key>
+					<string>\text{m}\angle BCD=\text{m}\angle A+\text{m}\angle B</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Pythagorean Theorem</string>
+					<key>equation</key>
+					<string>a^2+b^2=c^2</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>a and b are the legs of the right triangle, and c is its hypotenuse (the side opposite to the right angle). A set of three integers that satisfies this equation is called a Pythagorean triple. Examples include 3,4,5 and 5,12,13.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Area</string>
+					<key>equation</key>
+					<string>A=s^2</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>s is the side length of the square.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Perimeter</string>
+					<key>equation</key>
+					<string>P=4s</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>s is the side length of the square.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Diagonal</string>
+					<key>equation</key>
+					<string>d=s\sqrt{2}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>s is the side length of the square.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Area</string>
+					<key>equation</key>
+					<string>A=pq</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>p and q are the two side lengths of the rectangle.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Perimeter</string>
+					<key>equation</key>
+					<string>P=2p+2q</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>p and q are the two side lengths of the rectangle.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Diagonal</string>
+					<key>equation</key>
+					<string>d=\sqrt{p^2+q^2}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>p and q are the two side lengths of the rectangle.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Area</string>
+					<key>equation</key>
+					<string>A=qh</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>q is the base of the parallelogram, and h is its height.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Perimeter</string>
+					<key>equation</key>
+					<string>P=2p+2q</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>p and q are the two side lengths of the parallelogram.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Area</string>
+					<key>equation</key>
+					<string>A=\frac{h}{2}(b_1+b_2)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>b1 and b2 are the two bases (parallel sides) of the trapezoid, and h is its height.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Midline</string>
+					<key>equation</key>
+					<string>m=\frac{1}{2}(b_1+b_2)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The midline of a trapezoid is a segment between the midpoints of its two nonparallel sides. It is parallel to the two bases, and its length is their average.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Area</string>
+					<key>equation</key>
+					<string>A=\frac{3\sqrt{3}}{2}s^2</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>s is the side length of the hexagon.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Perimeter</string>
+					<key>equation</key>
+					<string>P=6s</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>s is the side length of the hexagon.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Area (Given the Radius)</string>
+					<key>equation</key>
+					<string>A=\frac{r^2N\sin (\frac{360\degree}{N})}{2}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The radius r is the length from the center to any vertex.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Area (Given the Apothem)</string>
+					<key>equation</key>
+					<string>A=N\tan (\frac{180\degree}{N})a^2</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The apothem a is the length from the center to the midpoint of any side.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Area (Given the Side Length)</string>
+					<key>equation</key>
+					<string>A=\frac{s^2N}{4\tan (\frac{180\degree}{N})}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>s is the side length of the polygon.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Perimeter</string>
+					<key>equation</key>
+					<string>P=s\times N</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>s is the side length of the polygon.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Apothem (Given the Radius)</string>
+					<key>equation</key>
+					<string>a=r\cos (\frac{180\degree}{N})</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The apothem a is the length from the center to the midpoint of any side. The radius r is the length from the center to any vertex.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Apothem (Given the Side Length)</string>
+					<key>equation</key>
+					<string>a=\frac{s}{2\tan (\frac{180\degree}{N})}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The apothem a is the length from the center to the midpoint of any side.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Radius (Given the Apothem)</string>
+					<key>equation</key>
+					<string>r=\frac{a}{\cos(\frac{180\degree}{N})}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The radius r is the length from the center to any vertex. The apothem a is the length from the center to the midpoint of any side.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Radius (Given the Side Length)</string>
+					<key>equation</key>
+					<string>r=\frac{s}{2\sin (\frac{180\degree}{N})}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The radius r is the length from the center to any vertex.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Area</string>
+					<key>equation</key>
+					<string>A=\pi r^2</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>r is the radius of the circle.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Circumference</string>
+					<key>equation</key>
+					<string>C=2\pi r=\pi d</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>r is the radius of the circle, and d is its diameter (twice as long as the radius).</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Arc Length</string>
+					<key>equation</key>
+					<string>\ell =\frac{a}{360}d</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>An arc is a part of a circle&apos;s circumference. a is the angle measure of the arc and d is the diameter of the circle.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Area of a Sector</string>
+					<key>equation</key>
+					<string>A=\pi r^2(\frac{a}{360})=\frac{\ell r}{2}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>A sector of a circle is bounded by two radii and the arc between them. r is the radius of the circle, a is the angle measure of the arc, and ℓ is the length of the arc.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Area of a Segment</string>
+					<key>equation</key>
+					<string>A=\frac{r^2}{2}(\frac{\pi a\degree}{180\degree}-\sin a\degree)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>A segment of a circle is bounded by an arc of the circle and the line connecting its endpoints. r is the radius of the circle and a is the angle measure of the arc.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Volume</string>
+					<key>equation</key>
+					<string>V=\frac{1}{3}Bh</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>B is the area of the pyramid&apos;s base, which may be any two-dimensional polygon, and h is its height.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Surface Area</string>
+					<key>equation</key>
+					<string>S=B+N\times\frac{1}{2}(s\ell )</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>B is the area of the pyramid&apos;s base, which may be a regular two-dimensional polygon. N is the number of sides of the base and s is its side length. ℓ is the slant height of the pyramid.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Volume</string>
+					<key>equation</key>
+					<string>V=\frac{1}{3}\pi r^2h</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>r is the radius of the cone&apos;s base, and h is the height of the cone.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Surface Area</string>
+					<key>equation</key>
+					<string>S=\pi r\ell +\pi r^2</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>r is the radius of the cone&apos;s base, and ℓ is the slant height of the cone.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Slant Height</string>
+					<key>equation</key>
+					<string>\ell =\sqrt{h^2+r^2}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>r is the radius of the cone&apos;s base, and h is the height of the cone.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Volume</string>
+					<key>equation</key>
+					<string>V=\frac{1}{3}\pi h(r_1^2+r_2^2+r_1r_2)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>h is the height of the frustum, r1 is the radius of the smaller base, and r2 is the radius of the larger base.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Surface Area</string>
+					<key>equation</key>
+					<string>S=\pi\ell (r_1+r_2)+\pi r_1^2+\pi r_2^2</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>ℓ is the slant height of the frustum, r1 is the radius of the smaller base, and r2 is the radius of the larger base.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Slant Height</string>
+					<key>equation</key>
+					<string>\ell =\sqrt{h^2+(r_2-r_1)^2}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>h is the height of the frustum, r1 is the radius of the smaller base, and r2 is the radius of the larger base.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Volume</string>
+					<key>equation</key>
+					<string>V=\ell\times w\times h</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>ℓ, w, and h are the length, width, and height of the prism.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Surface Area</string>
+					<key>equation</key>
+					<string>S=2(\ell w+\ell h+wh)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>ℓ, w, and h are the length, width, and height of the prism.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Volume</string>
+					<key>equation</key>
+					<string>V=\pi r^2h</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>r is the radius of the base of the cylinder, and h is its height.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Surface Area</string>
+					<key>equation</key>
+					<string>S=2\pi rh+2\pi r^2</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>r is the radius of the base of the cylinder, and h is its height.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Volume</string>
+					<key>equation</key>
+					<string>V=\frac{4}{3}\pi r^3</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>r is the radius of the sphere.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Surface Area</string>
+					<key>equation</key>
+					<string>S=4\pi r^2</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>r is the radius of the sphere.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Volume of a Sector</string>
+					<key>equation</key>
+					<string>V=\frac{2}{3}\pi r^2h</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>r is the radius of the sphere and h is the distance between the sector&apos;s two circular bases.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Surface Area of a Sector</string>
+					<key>equation</key>
+					<string>S=\pi r(2h+a+b)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>r is the radius of the sphere, h is the distance between the sector&apos;s two circular bases, a is the radius of the larger base, and b is the radius of the smaller base.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Volume of a Segment</string>
+					<key>equation</key>
+					<string>V=\frac{1}{6}\pi h(3a^2+3b^2+h^2)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>h is the distance between the segment&apos;s two circular bases, a is the radius of the larger base, and b is the radius of the smaller base.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Surface Area of a Segment</string>
+					<key>equation</key>
+					<string>S=2\pi rh=\pi (a^2+h^2)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>r is the radius of the sphere, h is the distance between the segment&apos;s two circular bases, and a is the radius of the larger base.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Volume</string>
+					<key>equation</key>
+					<string>V=(\pi r^2)(2\pi R)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>r is the outer radius of the torus, and R is its inner radius.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Surface Area</string>
+					<key>equation</key>
+					<string>S=(2\pi r)(2\pi R)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>r is the outer radius of the torus, and R is its inner radius.</string>
+				</dict>
+			</array>
+		</array>
+		<array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Standard Form</string>
+					<key>equation</key>
+					<string>ax+by+c=0</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>Other sources may refer to this as the general form. The slope of a line in this form is -a/b, and its y-intercept is (-c/b,0).</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Slope-Intercept Form</string>
+					<key>equation</key>
+					<string>y=mx+b</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This form gives the line&apos;s slope m and y-intercept b. Given two points (x1,y1) and (x2,y2), the slope may be calculated as m=(x2-x1)/(y2-y1).</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Point-Slope Form</string>
+					<key>equation</key>
+					<string>y-y_1=m(x-x_1)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This form gives the line&apos;s slope m and a point (x1,y1) which lies on the line.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Standard Form</string>
+					<key>equation</key>
+					<string>y=ax^2+bx+c</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This form gives the vertical &quot;stretch&quot; factor a and the y-intercept c. The value of a in this form is the same as in the vertex and intercept forms.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Vertex (General) Form</string>
+					<key>equation</key>
+					<string>y=a(x-h)^2+k</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This form gives the vertical &quot;stretch&quot; factor a and the vertex (h,k). The value of a in this form is the same as in the standard and intercept forms.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Intercept (Factored) Form</string>
+					<key>equation</key>
+					<string>y=a(x-p)(x-q)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This form gives the vertical &quot;stretch&quot; factor a and the x-intercepts (p,0) and (q,0). The value of a in this form is the same as in the standard and vertex forms.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>General Form</string>
+					<key>equation</key>
+					<string>f(x)=a(x-h)^3+k</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This gives the vertical &quot;stretch&quot; factor a, and the translation ⟨h,k⟩.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>General Form</string>
+					<key>equation</key>
+					<string>f(x)=a\sqrt {x-h}+k</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This gives the vertical &quot;stretch&quot; factor a, and the translation ⟨h,k⟩.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>General Form</string>
+					<key>equation</key>
+					<string>f(x)=ab^{x-h}+k</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This gives the vertical &quot;stretch&quot; factor a, and the translation ⟨h,k⟩.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>General Form</string>
+					<key>equation</key>
+					<string>f(x)=a\log_b(x-h)+k</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This gives the vertical &quot;stretch&quot; factor a, and the translation ⟨h,k⟩.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>General Form</string>
+					<key>equation</key>
+					<string>f(x)=\frac{a}{x-h}+k</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This gives the vertical &quot;stretch&quot; factor a, and the translation ⟨h,k⟩.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>General Form</string>
+					<key>equation</key>
+					<string>f(x)=a|x-h|+k</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This gives the vertical &quot;stretch&quot; factor a, and the translation ⟨h,k⟩.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Center-Radius (Standard) Form</string>
+					<key>equation</key>
+					<string>(x-h)^2+(y-k)^2=r^2</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This gives the center (h,k) and the radius r.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>General Form</string>
+					<key>equation</key>
+					<string>ax^2+by^2+cx+dy+e=0</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>General Form</string>
+					<key>equation</key>
+					<string>f(x)=a\sin (b(x-h))+k</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This gives the amplitude a, the period 2π/b, and the translation ⟨h,k⟩.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>General Form</string>
+					<key>equation</key>
+					<string>f(x)=a\cos (b(x-h))+k</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This gives the amplitude a, the period 2π/b, and the translation ⟨h,k⟩.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>General Form</string>
+					<key>equation</key>
+					<string>f(x)=a\tan (b(x-h))+k</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This gives the amplitude a, the period 2π/b, and the translation ⟨h,k⟩.</string>
+				</dict>
+			</array>
+		</array>
+		<array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Sine</string>
+					<key>equation</key>
+					<string>\sin\theta =\frac{a}{c}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The opposite side over the hypotenuse.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Cosine</string>
+					<key>equation</key>
+					<string>\cos\theta =\frac{b}{c}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The adjacent side over the hypotenuse.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Tangent</string>
+					<key>equation</key>
+					<string>\tan\theta =\frac{a}{b}=\frac{\sin\theta}{\cos\theta}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The opposite side over the adjacent side.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Cotangent</string>
+					<key>equation</key>
+					<string>\cot\theta =\frac{b}{a}=\frac{1}{\tan\theta}=\frac{\cos\theta}{\sin\theta}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The adjacent side over the opposite side, or the inverse of the tangent.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Secant</string>
+					<key>equation</key>
+					<string>\sec\theta =\frac{c}{b}=\frac{1}{\cos\theta}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The hypotenuse over the adjacent side, or the inverse of the cosine.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Cosecant</string>
+					<key>equation</key>
+					<string>\cos\theta =\frac{c}{a}=\frac{1}{\sin\theta}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The hypotenuse over the opposite side, or the inverse of the sine.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Pythagorean Trigonometric Identity</string>
+					<key>equation</key>
+					<string>\sin ^2\theta + \cos ^2\theta =1</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This formula is a variant of the Pythagorean Theorem as it describes the relationship between the sides of a right triangle formed by a radius of the unit circle, the shortest line from the radius&apos; endpoint on the unit circle to the x-axis, and the x-axis.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Law of Sines</string>
+					<key>equation</key>
+					<string>\frac{\sin A}{a}=\frac{\sin B}{b}=\frac{\sin C}{c}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This formula can apply to any triangle. A, B, and C are the angles of the triangle, and a, b, and c are the corresponding opposite sides.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Law of Cosines</string>
+					<key>equation</key>
+					<string>c^2=a^2+b^2-2ab\cos C</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This formula can apply to any triangle. C is an angle of the triangle, c is its opposite side, and a and b are the other two sides.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Law of Tangents</string>
+					<key>equation</key>
+					<string>\frac{a-b}{a+b}=\frac{\tan [\frac{1}{2}(A-B)]}{\tan [\frac{1}{2}(A+B)]}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>This formula can apply to any triangle. A and B are two angles of the triangle, and a and b are the corresponding opposite sides.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Sine of a Sum or Difference</string>
+					<key>equation</key>
+					<string>\sin (a\pm b)=\sin a\cos b\pm\cos a\sin b</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Cosine of a Sum or Difference</string>
+					<key>equation</key>
+					<string>\cos (a\pm b)=\cos a\cos b\mp\sin a\sin b</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Tangent of a Sum or Difference</string>
+					<key>equation</key>
+					<string>\tan (a\pm b)=\frac{\tan a\pm\tan b}{1\mp\tan a\tan b}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Sum or Difference of Two Sines</string>
+					<key>equation</key>
+					<string>\sin a\pm\sin b=2\cos\frac{a\mp b}{2}\sin\frac{a\pm b}{2}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Sum of Two Cosines</string>
+					<key>equation</key>
+					<string>\cos a+\cos b=2\cos\frac{a+b}{2}\cos\frac{a-b}{2}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Difference of Two Cosines</string>
+					<key>equation</key>
+					<string>\cos a-\cos b=2\sin\frac{a+b}{2}\sin\frac{b-a}{2}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+			</array>
+		</array>
+		<array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Intersection of A and B</string>
+					<key>equation</key>
+					<string>A\cap B=\{6\}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The set of elements in both sets A and B.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Union of A and B</string>
+					<key>equation</key>
+					<string>A\cup B=\{1,\, 2,\, 3,\, 4,\, 5,\, 6,\, 7\}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The set of elements in either set A or B.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Absolute Complement of A</string>
+					<key>equation</key>
+					<string>A\prime =U\setminus A=\{0,\, 2,\, 4,\, 7,\, 8,\, 9\}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The set of all elements not in set A.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Relative Complement of A in B</string>
+					<key>equation</key>
+					<string>B\setminus A=A\prime\cap B=\{2,\, 4,\, 7\}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The set of all elements in set B and not in set A.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Symmetric Difference of A and B</string>
+					<key>equation</key>
+					<string>A\triangle B=(A\cup B)\setminus (A\cap B)=\{1,\, 2,\, 3,\, 4,\, 5,\, 7\}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The set of all elements in set A or set B, but not in both.</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>…of A</string>
+					<key>equation</key>
+					<string>0\leq P(A)\leq 1</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The probability of an event is always expressed as a fraction, decimal, or percentage between 0 and 1; a probability of 0 describes an impossible event and a probability of 1 describes a certain event.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>…of the Complement of A</string>
+					<key>equation</key>
+					<string>P(A\prime )=1-P(A)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>…of the Union of A and B</string>
+					<key>equation</key>
+					<string>P(A\cup B)=P(A)+P(B)-P(A\cap B)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Mutually Exclusive Union</string>
+					<key>equation</key>
+					<string>P(A\cup B)=P(A)+P(B)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>Two events are mutually exclusive if they cannot both be true at once. For example, flipping a coin may result in heads or tails, but never both; the possible outcomes are mutually exclusive. Additionally, mutually exclusive events are never independent.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>…of the Intersection of A and B</string>
+					<key>equation</key>
+					<string>P(A\cap B)=P(\frac{A}{B})\cdot P(B)=P(\frac{B}{A})\cdot P(A)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Independent Intersection</string>
+					<key>equation</key>
+					<string>P(A\cap B)=P(A)\cdot P(B)</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>Two events are independent if the occurrence of one does not affect the other&apos;s probability. For example, flipping a coin and rolling a die separately are independent events, because the result of the coin flip does not influence the result of the die roll. Additionally, independent events are never mutually exclusive.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>…of A / B</string>
+					<key>equation</key>
+					<string>P(\frac{A}{B})=\frac{P(A\cap B)}{P(B)}</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string></string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Arithmetic Mean (Average)</string>
+					<key>equation</key>
+					<string>\mu =\frac{x_1+x_n}{n}=7.5</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>n is the number of elements in the set. Other simple properties of sets include the mode (the most common value), the median (the value in the center when the set is ordered least to greatest), and the range (the difference of the largest and smallest values).</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Geometric Mean</string>
+					<key>equation</key>
+					<string>\sqrt[n]{x_1x_2\cdots x_n}\approx 5.657</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>n is the number of elements in the set.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Harmonic Mean</string>
+					<key>equation</key>
+					<string>\frac{n}{\sum_{i=1}^n\frac{1}{x_i}}=\frac{n}{\frac{1}{x_1}+\frac{1}{x_2}+\cdots +\frac{1}{x_n}}\approx 4.267</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>n is the number of elements in the set.</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Standard Deviation</string>
+					<key>equation</key>
+					<string>\sigma =\sqrt{\frac{1}{n}\sum_{i=1}^n(x_i-\mu )^2}\approx 5.362</string>
+					<key>favorite</key>
+					<false/>
+					<key>note</key>
+					<string>The standard deviation of a set is the square root of its variance. n is the number of elements in the set, and μ is the arithmetic mean.</string>
+				</dict>
+			</array>
+		</array>
+	</array>
+	<key>Empty</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>equation</key>
+			<string></string>
+			<key>favorite</key>
+			<false/>
+			<key>note</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>
