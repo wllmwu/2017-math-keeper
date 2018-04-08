@@ -4,6 +4,9 @@ TODO for next versions (1.2 onwards):
 - Add calculus formulas
 - Improve performance (loading data)
 - Support more languages (French, Spanish, German, Chinese, Japanese, and/or Korean)
+- [TEST] Compare equations when restoring formulas
+
+DONE
 - Append + to display name
 - Switch sec and csc buttons on the math keyboard
-- Compare equations when restoring formulas
+- Add border to favorite star
